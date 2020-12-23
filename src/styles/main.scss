@@ -2,6 +2,10 @@
   font-size: 16px;
 }
 
+body {
+  margin: 0;
+}
+
 //! NAVBAR
 .navbar {
   // display: flex;
@@ -13,11 +17,12 @@
   .navbar-item {
     text-decoration: none; 
     font-size: 2rem;
-    padding: 2rem;
+    padding: 2.5rem;
+    color: #146cb3;
   }
   .navbar-item:hover {
-    background-color: #B2B2B2;
-    padding: 2rem;
+    background-color: #ebe7e7;
+    padding: 2.5rem;
     font-size: 2rem;
   } 
   a {
