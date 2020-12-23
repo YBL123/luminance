@@ -66,13 +66,31 @@ body {
     align-items: center;
   }
   .events-page-wrap {
-
   }
 
   .upcoming-events-wrap {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    .upcoming-event-wrap {
+      margin-bottom: 1rem;
+      width: 20%;
+    }
     .event-image {
       width: 20rem;
     }
+    .event-header {
+      width: 75%;
+    }
+    .request-invitation-button {
+      background-color: #206CB3;
+      color: white;
+      border: none;
+      padding: .4rem 1.6rem;
+      font-size: inherit;
+      box-sizing: border-box;
+      cursor: pointer;
+      transition: .2s;
+    }
   }
+
