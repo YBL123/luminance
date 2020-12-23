@@ -1,10 +1,39 @@
 import React from 'react'
 
+import event1 from './assets/event1.jpg'
+import event2 from './assets/event2.jpg'
+import event3 from './assets/event3.jpg'
+import event4 from './assets/event4.jpg'
+
 const Events = () => {
 
   return (
-    <div>
-      <h1>Events</h1>
+    <div className="events-page-wrap">
+      <div className="events-header-wrap">
+        <h1>UPCOMING EVENTS</h1>
+      </div>
+      <div>
+        <p>
+          Meet Luminance representatives where you are. Luminance participates in tradeshows and conferences around the world.
+          You can join us for our exclusive Luminance seminars and webinars for a more personalised experience.
+        </p>
+      </div>
+      <div className="upcoming-events-wrap">
+
+        <div className="upcoming-event-wrap">
+          <img className="event-image" src={event1} alt="event1" />
+        </div>
+        <div>
+          <img className="event-image" src={event2} alt="event2" />
+        </div>
+        <div>
+          <img className="event-image" src={event3} alt="event3" />
+        </div>
+        <div>
+          <img className="event-image" src={event4} alt="event4" />
+        </div>
+
+      </div>
     </div>
   )
 
