@@ -2,3 +2,46 @@
   font-size: 16px;
 }
 
+//! NAVBAR
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin: 0.6rem; 
+  font-size: 1.2rem;
+  font-family: 'Spectral SC', serif;
+  font-weight: bold;
+  .navbar-item {
+    text-decoration: none;
+    margin: 0 35px 0 5px;
+    @media screen and (max-width: 415px) { 
+      margin: 0px 5px 0 5px;
+    }
+  }
+  .navbar-item:hover {
+    font-style: italic;
+    font-weight: bold;
+  } 
+  a {
+    color: black;
+  }
+
+  }
+
+  .nav-logo {
+    width: 15rem;
+  }
+
+  .nav-logo-wrap {
+    padding-right: 40rem;
+  }
+
+  .navbar-item {
+    font-size: 2rem;
+  }
+
+  .main-nav-wrap {
+    padding-right: 50rem;
+    display: flex;
+    justify-content: center;  
+    margin-top: 1.5rem;
+  }
