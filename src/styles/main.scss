@@ -60,13 +60,23 @@ body {
 
 //EVENTS
 
-  .events-page-wrap {
+  .events-headr-p-wrap {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+
+  .events-header-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .events-page-wrap {
-  }
+
+  .events-description-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+
 
   .upcoming-events-wrap {
     display: flex;

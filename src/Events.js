@@ -9,15 +9,20 @@ const Events = () => {
 
   return (
     <div className="events-page-wrap">
-      <div className="events-header-wrap">
-        <h1>UPCOMING EVENTS</h1>
-      </div>
-      <div>
-        <p>
-          Meet Luminance representatives where you are. Luminance participates in tradeshows and conferences around the world.
-          You can join us for our exclusive Luminance seminars and webinars for a more personalised experience.
+
+      <div className="events-headr-p-wrap">
+        <div className="events-header-wrap">
+          <h1>UPCOMING EVENTS</h1>
+        </div>
+        <div className="events-description-wrap">
+          <p>
+            Meet Luminance representatives where you are. Luminance participates in tradeshows and conferences around the world.
+            You can join us for our exclusive Luminance seminars and webinars for a more personalised experience.
         </p>
+        </div>
       </div>
+
+
       <div className="upcoming-events-wrap">
 
         <div className="upcoming-event-wrap">
