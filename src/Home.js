@@ -34,7 +34,7 @@ const Home = () => {
             </h5>
         </div>
         <div>
-          <button>LEARN ABOUT DILIGIENCE</button>
+          <button className="home-learn-about-diligence-button">LEARN ABOUT DILIGIENCE</button>
         </div>
         <div>
           <h4>250+
