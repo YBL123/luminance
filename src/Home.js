@@ -1,5 +1,11 @@
 import React from 'react'
 
+import libor from './assets/libor.png'
+import dataProtection from './assets/data_protection.png'
+import dueDiligence from './assets/due_diligence.png'
+import realEstate from './assets/real_estate.png'
+import repapering from './assets/repapering.png'
+
 const Home = () => {
 
   return (
@@ -40,6 +46,42 @@ const Home = () => {
           IN USE BY OVER
           ONE-FIFTH
           OF GLOBAL TOP LAW FIRMS</h4>
+        </div>
+      </section>
+      <section className="home-section-3">
+        <div>
+          <h1>
+            One Product across the spectrum of Legal Projects
+          </h1>
+          <h3>
+            With over 1000 pre-set concept models, Luminance automatically labels key information
+            in your documents for a range of projects including...
+          </h3>
+        </div>
+        <div>
+          <div>
+          <img className="home-case-icons" src={dataProtection} alt="data-protection" />
+          <h5>Data Protection</h5>
+          </div>
+          <div>
+          <img className="home-case-icons" src={dueDiligence} alt="due-diligence" />
+          <h5>Due Diligence</h5>
+          </div>
+          <div>
+          <img className="home-case-icons" src={libor} alt="LIBOR" />
+          <h5>LIBOR</h5>
+          </div>
+          <div>
+          <img className="home-case-icons" src={realEstate} alt="real-Estate" />
+          <h5>Real Estate</h5>
+          </div>
+          <div>
+          <img className="home-case-icons" src={repapering} alt="repapering" />
+          <h5>Repapering</h5>
+          </div>
+        </div>
+        <div>
+          <button>VIEW MORE CASES</button>
         </div>
       </section>
     </>
