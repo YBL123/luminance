@@ -58,24 +58,24 @@ const Home = () => {
             in your documents for a range of projects including...
           </h3>
         </div>
-        <div>
-          <div>
+        <div className="home-case-icons-wrap">
+          <div className="home-case-icon-wrap">
           <img className="home-case-icons" src={dataProtection} alt="data-protection" />
           <h5>Data Protection</h5>
           </div>
-          <div>
+          <div className="home-case-icon-wrap">
           <img className="home-case-icons" src={dueDiligence} alt="due-diligence" />
           <h5>Due Diligence</h5>
           </div>
-          <div>
+          <div className="home-case-icon-wrap">
           <img className="home-case-icons" src={libor} alt="LIBOR" />
           <h5>LIBOR</h5>
           </div>
-          <div>
+          <div className="home-case-icon-wrap">
           <img className="home-case-icons" src={realEstate} alt="real-Estate" />
           <h5>Real Estate</h5>
           </div>
-          <div>
+          <div className="home-case-icon-wrap">
           <img className="home-case-icons" src={repapering} alt="repapering" />
           <h5>Repapering</h5>
           </div>
