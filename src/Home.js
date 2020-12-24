@@ -49,7 +49,7 @@ const Home = () => {
         </div>
       </section>
       <section className="home-section-3">
-        <div>
+        <div className="home-section-3-div-info">
           <h1>
             One Product across the spectrum of Legal Projects
           </h1>
