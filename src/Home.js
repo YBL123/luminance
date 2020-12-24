@@ -81,7 +81,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <button>VIEW MORE CASES</button>
+          <button className="home-view-more-cases-button">VIEW MORE CASES</button>
         </div>
       </section>
     </>
