@@ -57,7 +57,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: #6B98CC;
+  color: #ebe7e7;
 }  
 
 .footer-wrap {
@@ -68,6 +70,7 @@ body {
   padding-right: 1.5rem;
   text-decoration: none;
   font-size: 1.3rem;
+  color: #ebe7e7;
 }
 
 
@@ -84,6 +87,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 2rem;
+  // background-color: #EB5E61;
 }
 
 .home-section-2-info-wrap {
@@ -96,7 +101,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5rem;
+  // background-color: #EB5E61;
+  padding-bottom: 2rem;
 }
 
 .home-section-3-div-info {
@@ -149,6 +155,11 @@ body {
 .home-founded-by-text {
   width: 90%;
   font-size: 1.5rem;
+}
+
+.home-founded-by-text-2 {
+  width: 80%;
+  font-size: 1.4rem;
 }
 
 //EVENTS

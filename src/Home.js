@@ -29,7 +29,7 @@ const Home = () => {
           <h4 className="home-founded-by-text">
             Founded by mathematicians from the University of Cambridge, Luminance’s Legal Inference Transformation Engine (LITE) uniquely combines supervised and unsupervised machine learning to provide the most robust, powerful platform for legal analysis available to lawyers. Luminance’s technology can read and form an understanding of legal documentation in any language and jurisdiction, immediately surfacing the most relevant information and vastly reducing the amount of time spent on document review.
             </h4>
-          <h5>
+          <h5 className="home-founded-by-text-2">
             Luminance is used by over 250 law firms and organisations in over 50 countries and in more than 80 languages across a wide range of practice areas, including M&A due diligence, property portfolio analysis, eDiscovery, contract negotiation and model document comparison.
             </h5>
         </div>
