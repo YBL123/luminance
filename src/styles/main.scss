@@ -56,13 +56,27 @@ body {
 
 
 
+//HOME
+.home-header-section {
+  background-image: url("../assets/Luminance-platform-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20rem;
+}
+
+
+
 
 
 //EVENTS
+.events-page-wrap {
+  display: flex;
+  flex-direction: column;
+  // padding: 5rem;
+}
 
   .events-headr-p-wrap {
     margin-bottom: 5rem;
-    margin-top: 5rem;
   }
 
   .events-header-wrap {
@@ -85,13 +99,13 @@ body {
     // max-width: 1140px;
     .upcoming-event-wrap {
       margin-bottom: 1rem;
-      width: 20%;
+      width: 23rem;
     }
     .event-image {
       width: 20rem;
     }
     .event-header {
-      width: 75%;
+      width: 23rem;
     }
     .request-invitation-button {
       background-color: #206CB3;
@@ -105,3 +119,9 @@ body {
     }
   }
 
+
+
+
+
+
+  
