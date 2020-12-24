@@ -8,6 +8,7 @@ import Events from './Events'
 
 
 import Navbar from './common/Navbar'
+import Footer from './common/Footer'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/Products" component={Products} />
         <Route path="/Events" component={Events} />
       </Switch>
+      <Footer />
     </BrowserRouter>
   )
 }
