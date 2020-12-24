@@ -12,8 +12,8 @@ const Home = () => {
         </h3>
         </div>
       </section>
-      <section>
-        <div>
+      <section className="home-section-2">
+        <div className="home-section-2-info-wrap">
           <h1>
             Award-winning AI technology
           </h1>
