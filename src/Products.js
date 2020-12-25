@@ -25,7 +25,7 @@ const Products = () => {
         Learn about Luminance's other products:
         </div>
         <div className="products-section-1-paragraph-4">
-          <button>
+          <button className="products-explore-discovery-button">
             Explore Discovery
           </button>
         </div>
