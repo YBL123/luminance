@@ -235,10 +235,27 @@ body {
 .products-diligience-header-wrap {
   display: flex;
   align-self: start;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem;
 }
 
 .products-diligience-header {
   width: 25rem;
+  margin-bottom: 3rem;
+}
+
+.products-section-1-paragraph-1 {
+  margin-bottom: 3rem;
+}
+.products-section-1-paragraph-2 {
+  margin-bottom: 3rem;
+}
+.products-section-1-paragraph-3 {
+  margin-bottom: 3rem;
+}
+.products-section-1-paragraph-4 {
+  margin-bottom: 3rem;
 }
 
 
