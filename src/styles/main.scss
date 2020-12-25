@@ -276,5 +276,24 @@ body {
   font-size: 1.4rem;
 }
 
+.products-section-2-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 10rem;
+  margin-top: 8rem;
+  margin-bottom: 0;
+}
 
-  
+.products-diligience-section-2-text-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.products-diligience-quote-image {
+  width: 40rem;
+}
+
+.products-section-2-quote-image-wrap {
+  padding-right: 5rem;
+}

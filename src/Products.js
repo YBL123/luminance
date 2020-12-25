@@ -3,6 +3,7 @@ import React from 'react'
 // import diligenceHeaderImage from './assets/diligence_header_image.jpg'
 import diligenceHeaderImage from './assets/Luminance-platform2.jpg'
 import luminanceDiligenceHeader from './assets/Luminance_diligence.png'
+import diligienceQuote from './assets/diligence-birdbird-quote.png'
 
 const Products = () => {
 
@@ -26,10 +27,42 @@ const Products = () => {
         </div>
         <div className="products-section-1-paragraph-4">
           <button className="products-explore-discovery-button">
-            Explore Discovery
+            {">"} Explore Discovery
           </button>
         </div>
         </div>
+      </div>
+    </section>
+
+    <section className="products-section-2">
+      <div className="products-section-2-wrap">
+        <div className="products-section-2-quote-image-wrap">
+        <img className="products-diligience-quote-image" src={diligienceQuote} alt="diligience-quote-imag" />
+        </div>
+        <div className="products-diligience-section-2-text-wrap">
+        <div>
+        The value of Luminance for law firms
+        </div>
+        <div>
+        Fast, rigorous and cost-effective reviews for clients
+        </div>
+        <div>
+        Do more with less: using Luminance, lawyers can fulfil the most thorough review possible, derived from the entire data set, completed faster and incurring less cost
+        </div>
+        <div>
+        Provide better advice on clients’ risk and business planning
+        </div>
+        <div>
+        Because Luminance expedites the review process, lawyers can spend more time advising clients around business-critical issues, such as indications of bribery or change of control clauses. By instantly surfacing these red flags, negotiating positions can be strengthened from the outset, ensuring the best outcome for clients.
+        </div>
+        <div>
+        Additional revenue opportunities
+        </div>
+        <div>
+        Luminance allows less resource to be used up on reviews, allowing firms to expand the range of services they can offer to clients.
+        </div>
+        </div>
+
       </div>
     </section>
     </>
