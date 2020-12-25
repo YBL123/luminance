@@ -10,7 +10,7 @@ const Products = () => {
     <>
     <section className="products-section-1">
       <div className="products-header-section-1-wrap">
-        <div className="prdoucts-diligience-header-image-wrap">
+        <div className="products-diligience-header-image-wrap">
         <img className="products-diligience-header-image" src={diligenceHeaderImage} alt="diligience-header" />
         </div>
         <div className="products-diligience-header-wrap">
