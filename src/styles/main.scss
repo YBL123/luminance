@@ -484,10 +484,11 @@ body {
 .products-section-5-icon-title-wrap {
   display: flex;
   flex-direction: column;
-  width: 15rem;
+  align-items: center;
+  width: 20rem;
   margin: 10rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .products-section-5-icons-wrap {
@@ -504,4 +505,8 @@ body {
 
 .products-section-5-icon {
   width: 15rem;
+}
+
+.products-section-5-icon-h1 {
+  margin: 1.5rem;
 }

@@ -139,7 +139,7 @@ const Products = () => {
               <img className="products-section-5-icon" src={useLuminancesAi} alt="use-luminances-ai-icon" />
             </div>
             <div>
-              <h1>Use Luminance’s AI-built models or build your own</h1>
+              <h1 className="products-section-5-icon-h1">Use Luminance’s AI-built models or build your own</h1>
               </div>
             </div>
             <div className="products-section-5-icon-title-wrap">
@@ -147,7 +147,7 @@ const Products = () => {
               <img className="products-section-5-icon" src={blockAutomatic} alt="block-automati-icon" />
             </div>
             <div>
-            <h1>Automatic pre-set clause models</h1>
+            <h1 className="products-section-5-icon-h1">Automatic pre-set clause models</h1>
             </div>
             </div>
             <div className="products-section-5-icon-title-wrap">
@@ -155,12 +155,12 @@ const Products = () => {
               <img className="products-section-5-icon" src={beginReview} alt="begin-review-icon" />
             </div>
             <div>
-            <h1>Begin your review within the hour</h1>
+            <h1 className="products-section-5-icon-h1">Begin your review within the hour</h1>
             </div>
           </div>
           </div>
           <div>
-            <h1>Clause models are designed for due diligence, lease review, compliance, employment review, underwriting and more</h1>
+            <h1 className="products-section-5-icon-h1">Clause models are designed for due diligence, lease review, compliance, employment review, underwriting and more</h1>
           </div>
         </div>
       </section>
