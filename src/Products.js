@@ -6,6 +6,10 @@ import diligenceHeaderImage from './assets/Luminance-platform2.jpg'
 import luminanceDiligenceHeader from './assets/Luminance_diligence.png'
 import diligienceQuote from './assets/diligence-birdbird-quote.png'
 
+import useLuminancesAi from './assets/use-luminances-ai-built-models-or-build-your-own.png'
+import blockAutomatic from './assets/1000-block-Automatic-pre-set-clause-models.png'
+import beginReview from './assets/begin-your-review-within-the-hour.png'
+
 const Products = () => {
 
   return (
@@ -121,6 +125,31 @@ const Products = () => {
           <div className="products-section-4-video-wrap">
             <iframe title="vimeo-player" src="https://player.vimeo.com/video/379008957" width="640" height="360" frameborder="0" allowfullscreen></iframe>
           </div>
+        </div>
+      </section>
+
+      <section className="products-section-5">
+        <div className="products-section-5-div-wrap">
+          <div className="products-section-5-h1-wrap">
+            <h1 className="products-section-5-h1">Pre-set clause models for rapid document analysis:</h1>
+          </div>
+          <div className="products-section-5-icons-wrap">
+            <div className="products-section-5-icon-wrap">
+              <img className="products-section-5-icon" src={useLuminancesAi} alt="use-luminances-ai-icon" />
+              <h1>Use Luminance’s AI-built models or build your own</h1>
+            </div>
+            <div className="products-section-5-icon-wrap">
+              <img className="products-section-5-icon" src={blockAutomatic} alt="block-automati-icon" />
+              <h1>Automatic pre-set clause models</h1>
+            </div>
+            <div className="products-section-5-icon-wrap">
+              <img className="products-section-5-icon" src={beginReview} alt="begin-review-icon" />
+              <h1>Begin your review within the hour</h1>
+            </div>
+          </div>
+          <div>
+          <h1>Clause models are designed for due diligence, lease review, compliance, employment review, underwriting and more</h1>
+        </div>
         </div>
       </section>
     </>

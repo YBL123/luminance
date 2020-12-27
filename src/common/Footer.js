@@ -9,7 +9,7 @@ class Footer extends React.Component {
       <section className="footer-section">
         <div className="footer-wrap">
         <Link to="/Contact" className="footer-item">Contact</Link> 
-        <Link to="/Contact" className="footer-item">Legal</Link> 
+        <Link to="/Legal" className="footer-item">Legal</Link> 
         </div>
         <div className="copy">Copyright © 2020 Luminance Technologies Ltd.</div>
       </section >
