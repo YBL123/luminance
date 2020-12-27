@@ -267,6 +267,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 5rem;
+  margin-bottom: 0;
 }
 
 .products-diligience-header {
@@ -309,8 +310,8 @@ body {
   display: flex;
   justify-content: center;
   margin: 10rem;
-  margin-top: 8rem;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .products-diligience-section-2-text-wrap {
@@ -325,4 +326,33 @@ body {
 
 .products-section-2-quote-image-wrap {
   padding-right: 5rem;
+}
+
+.products-diligience-section-2-line-1 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+.products-diligience-section-2-line-2 {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.products-diligience-section-2-line-3 {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+.products-diligience-section-2-line-4 {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.products-diligience-section-2-line-5 {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+.products-diligience-section-2-line-6 {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.products-diligience-section-2-line-7 {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
 }

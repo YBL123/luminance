@@ -40,25 +40,25 @@ const Products = () => {
         <img className="products-diligience-quote-image" src={diligienceQuote} alt="diligience-quote-imag" />
         </div>
         <div className="products-diligience-section-2-text-wrap">
-        <div>
+        <div className="products-diligience-section-2-line-1">
         The value of Luminance for law firms
         </div>
-        <div>
+        <div className="products-diligience-section-2-line-2">
         Fast, rigorous and cost-effective reviews for clients
         </div>
-        <div>
+        <div className="products-diligience-section-2-line-3">
         Do more with less: using Luminance, lawyers can fulfil the most thorough review possible, derived from the entire data set, completed faster and incurring less cost
         </div>
-        <div>
+        <div className="products-diligience-section-2-line-4">
         Provide better advice on clients’ risk and business planning
         </div>
-        <div>
+        <div className="products-diligience-section-2-line-5">
         Because Luminance expedites the review process, lawyers can spend more time advising clients around business-critical issues, such as indications of bribery or change of control clauses. By instantly surfacing these red flags, negotiating positions can be strengthened from the outset, ensuring the best outcome for clients.
         </div>
-        <div>
+        <div className="products-diligience-section-2-line-6">
         Additional revenue opportunities
         </div>
-        <div>
+        <div className="products-diligience-section-2-line-7">
         Luminance allows less resource to be used up on reviews, allowing firms to expand the range of services they can offer to clients.
         </div>
         </div>
