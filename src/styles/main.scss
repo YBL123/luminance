@@ -477,8 +477,12 @@ body {
 }
 
 .products-section-5-icon-title-wrap {
-  width: 16%;
-  margin-right: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  margin: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .products-section-5-icons-wrap {
