@@ -67,29 +67,60 @@ const Products = () => {
 
       <section className="products-section-3">
         <div className="products-section-3-div-wrap">
-        <div className="products-section-3-video-wrap">
-          <iframe src="https://player.vimeo.com/video/427026743" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-        </div>
-        <div className="products-section-3-text-wrap">
-          <h3>KEY BENEFITS</h3>
-          <h1>Speed: expedite the review </h1>
-          <h3>
-            From 79 documents reviewed per hour manually to over 3600 documents reviewed per hour using Luminance
+          <div className="products-section-3-video-wrap">
+            <iframe title="products-section-3-video" src="https://player.vimeo.com/video/427026743" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          </div>
+          <div className="products-section-3-text-wrap">
+            <h3>KEY BENEFITS</h3>
+            <h1>Speed: expedite the review </h1>
+            <h3>
+              From 79 documents reviewed per hour manually to over 3600 documents reviewed per hour using Luminance
           </h3>
-          <h4> - Bird & Bird</h4>
-          <h1>Confidence: review 100% of documents</h1>
-          <h3>
-            Using Luminance, the lawyers conducted their review 400 times faster, ensuring they could read and understand every document rather than rely on sampling or outsourcing to meet deadlines.
+            <h4> - Bird & Bird</h4>
+            <h1>Confidence: review 100% of documents</h1>
+            <h3>
+              Using Luminance, the lawyers conducted their review 400 times faster, ensuring they could read and understand every document rather than rely on sampling or outsourcing to meet deadlines.
           </h3>
-          <h4>- Dentons</h4>
-          <h1>Boost productivity</h1>
-          <h3>
-          Review time slashed from seven months to just 10 days, representing a 1,440% increase in productivity and a 95% time-saving.
+            <h4>- Dentons</h4>
+            <h1>Boost productivity</h1>
+            <h3>
+              Review time slashed from seven months to just 10 days, representing a 1,440% increase in productivity and a 95% time-saving.
           </h3>
-          <h4>- EY</h4>
+            <h4>- EY</h4>
+          </div>
         </div>
+      </section>
+
+      <section className="products-section-4">
+        <div className="products-section-4-div-wrap">
+          <div className="products-section-4-text-wrap">
+            <div products-section-4-text-part-1-wrap>
+              <h3>RELATED RESOURCES</h3>
+              <h1>Luminance Diligence</h1>
+              <h2>product brochure</h2>
+              <div className="products-section-4-request-button-wrap">
+                <button className="products-section-4-request-button">REQUEST</button>
+              </div>
+            </div>
+            <div products-section-4-text-part-2-wrap>
+              <h1>Case studies</h1>
+              <ul>
+                <li>BIRD & BIRD</li>
+                <li>M&A DUE DILIGENCE</li>
+                <li>PENNINGTONS MANCHES COOPER</li>
+                <li>GILIBERTI</li>
+                <li>VIEIRA DE ALMEIDA</li>
+              </ul>
+              <div className="products-section-4-dowload-button-wrap">
+              <button className="products-section-4-download-button">DOWNLOAD</button>
+              </div>
+              <h3>SEE MORE RESOURCES HERE</h3>
+            </div>
+          </div>
+          <div className="products-section-3-video-wrap">
+            <iframe title="vimeo-player" src="https://player.vimeo.com/video/379008957" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
- 
       </section>
     </>
   )
