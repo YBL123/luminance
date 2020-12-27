@@ -4,11 +4,12 @@
 
 body {
   margin: 0;
+  // background: #8DCEE7;
 }
 
 //! NAVBAR
 .navbar {
-  border-bottom: 2px solid #B2B2B2;
+  // border-bottom: 2px solid black;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   background: #005A8A;
   .navbar-item {
@@ -18,11 +19,11 @@ body {
     color: white;
   }
   .navbar-item:hover {
-    background-color: white;
+    background-color: #6B98CC;
     padding: 2.5rem;
     font-size: 2rem;
-    opacity: 20%;
-    color: black;
+    // opacity: 20%;
+    color: white;
   } 
   a {
     color: black;
