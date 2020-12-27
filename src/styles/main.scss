@@ -461,26 +461,24 @@ justify-content: center;
   align-items: center;
 }
 
+.products-section-5-icon-title-wrap {
+  width: 16%;
+  margin-right: 5rem;
+}
+
 .products-section-5-icons-wrap {
   display: flex;
   justify-content: center;
 }
 
 .products-section-5-icon-wrap {
-  // width: 30%;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 2rem;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 30rem;
   justify-content: center;
-  width: 30%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20rem;
+  // background: #8DCEE7;
 }
 
 .products-section-5-icon {
-  width: 80%
+  width: 15rem;
 }

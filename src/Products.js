@@ -134,22 +134,34 @@ const Products = () => {
             <h1 className="products-section-5-h1">Pre-set clause models for rapid document analysis:</h1>
           </div>
           <div className="products-section-5-icons-wrap">
+            <div className="products-section-5-icon-title-wrap">
             <div className="products-section-5-icon-wrap">
               <img className="products-section-5-icon" src={useLuminancesAi} alt="use-luminances-ai-icon" />
-              <h1>Use Luminance’s AI-built models or build your own</h1>
             </div>
+            <div>
+              <h1>Use Luminance’s AI-built models or build your own</h1>
+              </div>
+            </div>
+            <div className="products-section-5-icon-title-wrap">
             <div className="products-section-5-icon-wrap">
               <img className="products-section-5-icon" src={blockAutomatic} alt="block-automati-icon" />
-              <h1>Automatic pre-set clause models</h1>
             </div>
+            <div>
+            <h1>Automatic pre-set clause models</h1>
+            </div>
+            </div>
+            <div className="products-section-5-icon-title-wrap">
             <div className="products-section-5-icon-wrap">
               <img className="products-section-5-icon" src={beginReview} alt="begin-review-icon" />
-              <h1>Begin your review within the hour</h1>
+            </div>
+            <div>
+            <h1>Begin your review within the hour</h1>
             </div>
           </div>
+          </div>
           <div>
-          <h1>Clause models are designed for due diligence, lease review, compliance, employment review, underwriting and more</h1>
-        </div>
+            <h1>Clause models are designed for due diligence, lease review, compliance, employment review, underwriting and more</h1>
+          </div>
         </div>
       </section>
     </>
