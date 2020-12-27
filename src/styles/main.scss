@@ -103,7 +103,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 60rem;
+  margin-left: 65rem;
 }
 .home-text-section-1-h1 {
   font-size: 4rem;
@@ -319,6 +319,11 @@ body {
   padding: 1.5rem;
   font-size: 1.4rem;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.products-section-2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .products-section-2-wrap {
