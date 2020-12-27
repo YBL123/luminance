@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link, withRouter } from 'react-router-dom'
 
-import navLogo from '../assets/Luminance_logos.png'
+// import navLogo from '../assets/Luminance_logos.png'
+import navLogo from '../assets/Luminance_white.png'
 
 class Navbar extends React.Component {
 
