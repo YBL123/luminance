@@ -117,7 +117,7 @@ const Products = () => {
               <h3>SEE MORE RESOURCES HERE</h3>
             </div>
           </div>
-          <div className="products-section-3-video-wrap">
+          <div className="products-section-4-video-wrap">
             <iframe title="vimeo-player" src="https://player.vimeo.com/video/379008957" width="640" height="360" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>

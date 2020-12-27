@@ -159,22 +159,26 @@ body {
   background-color: #206CB3;
   color: white;
   border: none;
-  padding: .4rem 1.6rem;
+  padding: 0.4rem 1.6rem;
   font-size: inherit;
   box-sizing: border-box;
   cursor: pointer;
-  transition: .2s;
+  transition: 0.2s;
+  padding: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .home-learn-about-diligence-button {
   background-color: #206CB3;
   color: white;
   border: none;
-  padding: .4rem 1.6rem;
+  padding: 0.4rem 1.6rem;
   font-size: inherit;
   box-sizing: border-box;
   cursor: pointer;
-  transition: .2s;
+  transition: 0.2s;
+  padding: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .home-case-icon-names {
@@ -379,8 +383,45 @@ justify-content: center;
   margin-right: 5rem;
 }
 
+.products-section-4 {
+  display: flex;
+  margin: 10rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: center;
+}
 
 .products-section-4-div-wrap {
   display: flex;
   justify-content: center;
+}
+
+.products-section-4-text-wrap {
+  margin-right: 5rem;
+}
+
+.products-section-4-request-button {
+  background-color: #206CB3;
+  color: white;
+  border: none;
+  padding: 0.4rem 1.6rem;
+  font-size: inherit;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.2s;
+  padding: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.products-section-4-download-button {
+  background-color: #206CB3;
+  color: white;
+  border: none;
+  padding: 0.4rem 1.6rem;
+  font-size: inherit;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.2s;
+  padding: 1.5rem;
+  font-size: 1.4rem;
 }
