@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, withRouter } from 'react-router-dom'
 
 // import diligenceHeaderImage from './assets/diligence_header_image.jpg'
 import diligenceHeaderImage from './assets/Luminance-platform2.jpg'
@@ -104,15 +105,15 @@ const Products = () => {
             </div>
             <div products-section-4-text-part-2-wrap>
               <h1>Case studies</h1>
-              <ul>
-                <li>BIRD & BIRD</li>
-                <li>M&A DUE DILIGENCE</li>
-                <li>PENNINGTONS MANCHES COOPER</li>
-                <li>GILIBERTI</li>
-                <li>VIEIRA DE ALMEIDA</li>
-              </ul>
+              <div className="products-section-4-links-wrap">
+                <Link to="/BIRD&BIRD" className="products-section-4-link">BIRD & BIRD</Link>
+                <Link to="/M&A DUE DILIGENCE" className="products-section-4-link">M&A DUE DILIGENCE</Link>
+                <Link to="/PENNINGTONS MANCHES COOPER" className="products-section-4-link">PENNINGTONS MANCHES COOPER</Link>
+                <Link to="/GILIBERTI" className="products-section-4-link">GILIBERTI</Link>
+                <Link to="/VIEIRA DE ALMEIDA" className="products-section-4-link">VIEIRA DE ALMEIDA</Link>
+              </div>
               <div className="products-section-4-dowload-button-wrap">
-              <button className="products-section-4-download-button">DOWNLOAD</button>
+                <button className="products-section-4-download-button">DOWNLOAD</button>
               </div>
               <h3>SEE MORE RESOURCES HERE</h3>
             </div>
