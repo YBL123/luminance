@@ -59,26 +59,47 @@ const Home = () => {
           </h3>
         </div>
         <div className="home-case-icons-wrap">
-          <div className="home-case-icon-wrap">
-          <img className="home-case-icons" src={dataProtection} alt="data-protection" />
-          <h5 className="home-case-icon-names">Data Protection</h5>
+          <div className="home-case-icons-names-wrap">
+            <div className="home-case-icon-wrap">
+              <img className="home-case-icons" src={dataProtection} alt="data-protection" />
+            </div>
+            <div className="home-icon-name-wrap">
+              <h5 className="home-case-icon-names">Data Protection</h5>
+            </div>
           </div>
-          <div className="home-case-icon-wrap">
-          <img className="home-case-icons" src={dueDiligence} alt="due-diligence" />
-          <h5 className="home-case-icon-names">Due Diligence</h5>
+          <div className="home-case-icons-names-wrap">
+            <div className="home-case-icon-wrap">
+              <img className="home-case-icons" src={dueDiligence} alt="due-diligence" />
+            </div>
+            <div className="home-icon-name-wrap">
+              <h5 className="home-case-icon-names">Due Diligence</h5>
+            </div>
           </div>
-          <div className="home-case-icon-wrap">
-          <img className="home-case-icons" src={libor} alt="LIBOR" />
-          <h5 className="home-case-icon-names">LIBOR</h5>
+          <div className="home-case-icons-names-wrap">
+            <div className="home-case-icon-wrap">
+              <img className="home-case-icons" src={libor} alt="LIBOR" />
+            </div>
+            <div className="home-icon-name-wrap">
+              <h5 className="home-case-icon-names">LIBOR</h5>
+            </div>
           </div>
-          <div className="home-case-icon-wrap">
-          <img className="home-case-icons" src={realEstate} alt="real-Estate" />
-          <h5 className="home-case-icon-names">Real Estate</h5>
+          <div className="home-case-icons-names-wrap">
+            <div className="home-case-icon-wrap">
+              <img className="home-case-icons" src={realEstate} alt="real-Estate" />
+            </div>
+            <div className="home-case-icon-name-wrap">
+              <h5 className="home-case-icon-names">Real Estate</h5>
+            </div>
           </div>
-          <div className="home-case-icon-wrap">
-          <img className="home-case-icons" src={repapering} alt="repapering" />
-          <h5 className="home-case-icon-names">Repapering</h5>
+          <div className="home-case-icons-names-wrap">
+            <div className="home-case-icon-wrap">
+              <img className="home-case-icons" src={repapering} alt="repapering" />
+            </div>
+            <div className="home-case-icon-name-wrap">
+              <h5 className="home-case-icon-names">Repapering</h5>
+            </div>
           </div>
+
         </div>
         <div>
           <button className="home-view-more-cases-button">VIEW MORE CASES</button>
