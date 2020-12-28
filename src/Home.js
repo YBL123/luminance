@@ -53,7 +53,7 @@ const Home = () => {
           <h1 className="home-section-3-h1-bottom">
             One Product across the spectrum of Legal Projects
           </h1>
-          <h3>
+          <h3 className="home-section-3-h3-bottom">
             With over 1000 pre-set concept models, Luminance automatically labels key information
             in your documents for a range of projects including...
           </h3>
