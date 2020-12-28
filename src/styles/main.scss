@@ -269,10 +269,12 @@ body {
 .events-page-wrap {
   display: flex;
   flex-direction: column;
+  background: aliceblue;
   // padding: 5rem;
 }
 
 .events-header-h1 {
+  color: #206CB3;
   font-size: 3rem;
 }
 
@@ -295,6 +297,7 @@ body {
   } 
 
   .events-description-text {
+    font-family: 'Lato-Medium';
     font-size: 1.6rem;
   }
 
@@ -311,6 +314,7 @@ body {
       box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
       padding: 1rem;
       margin: 2rem;
+      background: white;
     }
     .event-image {
       width: 30rem;
@@ -409,7 +413,7 @@ body {
 .products-section-2 {
   // margin-top: 3rem;
   // margin-bottom: 3rem;
-  background: aliceblue;
+  // background: aliceblue;
 }
 
 .products-section-2-wrap {
@@ -424,7 +428,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 50%;
-  background: aliceblue;
+  // background: aliceblue;
   padding: 3rem;
 }
 
@@ -433,8 +437,7 @@ body {
 }
 
 .products-section-2-quote-image-wrap {
-  // padding-right: 5rem;
-  background: white;
+  // background: white;
   padding-left: 25rem;
   padding-right: 5rem;
 }
