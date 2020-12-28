@@ -50,7 +50,7 @@ const Home = () => {
       </section>
       <section className="home-section-3">
         <div className="home-section-3-div-info">
-          <h1>
+          <h1 className="home-section-3-h1-bottom">
             One Product across the spectrum of Legal Projects
           </h1>
           <h3>
