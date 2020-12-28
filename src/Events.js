@@ -28,29 +28,29 @@ const Events = () => {
         <div className="upcoming-event-wrap">
           <img className="event-image" src={event1} alt="event1" />
           <h3 className="event-header">Using AI technology to establish successful outside counsel guidelines</h3>
-          <h4>26 JANUARY 2021</h4>
-          <h4>WEBINAR</h4>
+          <h4 className="event-date">26 JANUARY 2021</h4>
+          <h4 className="webinar">WEBINAR</h4>
           <button className="request-invitation-button">REQUEST INVITATION</button>
         </div>
         <div className="upcoming-event-wrap">
           <img className="event-image" src={event2} alt="event2" />
           <h3 className="event-header">Using AI technology to establish successful outside counsel guidelines</h3>
-          <h4>26 JANUARY 2021</h4>
-          <h4>WEBINAR</h4>
+          <h4 className="event-date">26 JANUARY 2021</h4>
+          <h4 className="webinar">WEBINAR</h4>
           <button className="request-invitation-button">REQUEST INVITATION</button>
         </div>
         <div className="upcoming-event-wrap">
           <img className="event-image" src={event3} alt="event3" />
           <h3 className="event-header">Using AI technology to establish successful outside counsel guidelines</h3>
-          <h4>26 JANUARY 2021</h4>
-          <h4>WEBINAR</h4>
+          <h4 className="event-date">26 JANUARY 2021</h4>
+          <h4 className="webinar">WEBINAR</h4>
           <button className="request-invitation-button">REQUEST INVITATION</button>
         </div>
         <div className="upcoming-event-wrap">
           <img className="event-image" src={event4} alt="event4" />
           <h3 className="event-header">Using AI technology to establish successful outside counsel guidelines</h3>
-          <h4>26 JANUARY 2021</h4>
-          <h4>WEBINAR</h4>
+          <h4 className="event-date">26 JANUARY 2021</h4>
+          <h4 className="webinar">WEBINAR</h4>
           <button className="request-invitation-button">REQUEST INVITATION</button>
         </div>
 

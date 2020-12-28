@@ -91,10 +91,13 @@ body {
 .footer-item {
   padding-right: 1.5rem;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   color: #ebe7e7;
 }
 
+.copy {
+  font-size: 1.3rem;
+}
 
 
 //HOME
@@ -310,18 +313,19 @@ body {
       flex-direction: column;
       align-items: center;
       margin-bottom: 1rem;
-      width: 30rem;
+      width: 25rem;
       box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-      padding: 1rem;
+      padding: 1.5rem;
       margin: 2rem;
       background: white;
     }
     .event-image {
-      width: 30rem;
+      width: 25rem;
     }
     .event-header {
       font-size: 1.8rem;
       width: 23rem;
+      color: #206CB3; 
     }
     .request-invitation-button {
       background-color: #206CB3;
@@ -336,6 +340,19 @@ body {
       font-size: 1.4rem;
       box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     }
+
+    .event-date {
+    font-family: 'Lato-Light';
+    font-size: 1.5rem;
+    margin: 0;
+    }
+
+    .webinar {
+      font-size: 1.5rem;
+      font-family: 'Lato-Medium';
+      margin: 1.2rem;
+    }
+
   }
 
 
