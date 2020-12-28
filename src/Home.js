@@ -20,10 +20,10 @@ const Home = () => {
       </section>
       <section className="home-section-2">
         <div className="home-section-2-info-wrap">
-          <h1>
+          <h1 className="home-text-section-2-h1-award">
             Award-winning AI technology
           </h1>
-          <h2>
+          <h2 className="home-text-section-2-h2-award">
             for the legal profession
             </h2>
           <h4 className="home-founded-by-text">
