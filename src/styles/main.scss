@@ -219,6 +219,10 @@ body {
   // padding: 5rem;
 }
 
+.events-header-h1 {
+  font-size: 3rem;
+}
+
   .events-headr-p-wrap {
     margin-bottom: 5rem;
   }
@@ -233,8 +237,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 60%;
+    margin: 0 auto;
   } 
 
+  .events-description-text {
+    font-size: 1.6rem;
+  }
 
   .upcoming-events-wrap {
     display: flex;
@@ -248,6 +257,7 @@ body {
       width: 30rem;
     }
     .event-header {
+      font-size: 1.8rem;
       width: 23rem;
     }
     .request-invitation-button {

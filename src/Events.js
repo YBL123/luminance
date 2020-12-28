@@ -12,10 +12,10 @@ const Events = () => {
 
       <div className="events-headr-p-wrap">
         <div className="events-header-wrap">
-          <h1>UPCOMING EVENTS</h1>
+          <h1 className="events-header-h1">UPCOMING EVENTS</h1>
         </div>
         <div className="events-description-wrap">
-          <p>
+          <p className="events-description-text">
             Meet Luminance representatives where you are. Luminance participates in tradeshows and conferences around the world.
             You can join us for our exclusive Luminance seminars and webinars for a more personalised experience.
         </p>
