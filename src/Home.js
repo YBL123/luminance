@@ -37,15 +37,17 @@ const Home = () => {
           <button className="home-learn-about-diligence-button">LEARN ABOUT DILIGIENCE</button>
         </div>
         <div>
-          <h4 className="home-h4">250+
-          CUSTOMERS
-          50+
-          COUNTRIES
-          80+
-          LANGUAGES
-          IN USE BY OVER
-          ONE-FIFTH
-          OF GLOBAL TOP LAW FIRMS</h4>
+          <h4 className="home-h4">
+            <span className="home-blue-span">250+ </span>
+            CUSTOMERS <span className="home-grey-span"> | </span>
+            <span className="home-blue-span"> 50+ </span>
+            COUNTRIES <span className="home-grey-span"> | </span>
+            <span className="home-blue-span"> 80+ </span>
+            LANGUAGES <span className="home-grey-span"> | </span>
+            IN USE BY OVER
+            <span className="home-blue-span"> ONE-FIFTH </span>
+            OF GLOBAL TOP LAW FIRMS
+          </h4>
         </div>
       </section>
       <section className="home-section-3">
