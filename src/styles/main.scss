@@ -7,6 +7,10 @@
     font-family: 'Lato-Black';
     src: local('Lato-Black'), url(../fonts/Lato-Black.ttf) format('opentype');
   }
+  @font-face {
+    font-family: 'Lato-Light';
+    src: local('Lato-Light'), url(../fonts/Lato-Light.ttf) format('opentype');
+  }
 
   * {
     font-family: Lato-Black, Arial, serif;
@@ -145,7 +149,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  // background-color: #EB5E61;
+  background: aliceblue;
   padding-bottom: 2rem;
 }
 
@@ -173,6 +177,7 @@ body {
   height: 15rem;
   width: 15rem;
   justify-content: center;
+  background: white;
 }
 
 .home-case-icons {
@@ -219,12 +224,19 @@ body {
 
 .home-founded-by-text {
   width: 90%;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-family: 'Lato-Light';
 }
 
 .home-founded-by-text-2 {
   width: 80%;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  color: #206CB3;
+    margin-top: 1rem;
+}
+
+.home-h4 {
+  font-size: 1.5rem;
 }
 
 //EVENTS

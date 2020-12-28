@@ -37,7 +37,7 @@ const Home = () => {
           <button className="home-learn-about-diligence-button">LEARN ABOUT DILIGIENCE</button>
         </div>
         <div>
-          <h4>250+
+          <h4 className="home-h4">250+
           CUSTOMERS
           50+
           COUNTRIES
