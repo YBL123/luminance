@@ -224,7 +224,7 @@ body {
 }
 
   .events-headr-p-wrap {
-    margin-bottom: 5rem;
+    // margin-bottom: 5rem;
   }
 
   .events-header-wrap {
@@ -250,8 +250,14 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     .upcoming-event-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin-bottom: 1rem;
       width: 30rem;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+      padding: 1rem;
+      margin: 2rem;
     }
     .event-image {
       width: 30rem;
@@ -524,14 +530,14 @@ body {
   box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2);
   border-radius: 20rem;
   // background: #8DCEE7;
-  width: 20rem;
-  height: 20rem;
+  width: 16rem;
+  height: 16rem;
   align-items: center;
 }
 
 .products-section-5-icon {
-  width: 15rem;
-  height: 15rem;
+  width: 12rem;
+  height: 12rem;
 }
 
 .products-section-5-icon-h1 {
