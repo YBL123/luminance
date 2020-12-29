@@ -15,6 +15,10 @@
     font-family: 'Lato-Medium';
     src: local('Lato-Medium'), url(../fonts/Lato-Medium.ttf) format('opentype');
   }
+  @font-face {
+    font-family: 'Lato-Italic';
+    src: local('Lato-Italic'), url(../fonts/Lato-Italic.ttf) format('opentype');
+  }
 
   * {
     font-family: Lato-Black, Arial, serif;
@@ -364,7 +368,7 @@ body {
 //PRODUCTS
 
 .products-section-1 {
-  // border-bottom: 3px solid #005A8A;
+  border-bottom: 3px solid #005A8A;
 }
 
 .products-header-section-1-wrap {
@@ -379,6 +383,7 @@ body {
 
 .products-diligience-header-image {
   width: 70rem;
+  height: 60rem;
 }
 
 .products-diligience-header-wrap {
@@ -417,14 +422,14 @@ body {
 }
 
 .products-explore-discovery-button {
-  background-color: #60A89B;
+  background-color: #206CB3;
   color: white;
   border: none;
-  padding: .4rem 1.6rem;
+  padding: 0.4rem 1.6rem;
   font-size: inherit;
   box-sizing: border-box;
   cursor: pointer;
-  transition: .2s;
+  transition: 0.2s;
   padding: 1.5rem;
   font-size: 1.4rem;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
@@ -439,6 +444,7 @@ body {
 .products-section-2-wrap {
   display: flex;
   justify-content: center;
+  align-items: center;
   // margin: 10rem;
   // margin-bottom: 0;
   // margin-top: 0;
@@ -448,46 +454,59 @@ body {
   display: flex;
   flex-direction: column;
   width: 50%;
-  // background: aliceblue;
-  padding: 3rem;
+  padding: 5rem;
+  padding-right: 10rem;
+  padding-left: 5rem;
+  background: aliceblue;
 }
 
 .products-diligience-quote-image {
-  width: 40rem;
+  width: 50rem;
+  margin: 2rem;
+  margin-top: 3.5rem;
 }
 
 .products-section-2-quote-image-wrap {
-  // background: white;
-  padding-left: 25rem;
-  padding-right: 5rem;
+  padding-left: 15rem;
+  padding-right: 1.1rem;
 }
 
 .products-diligience-section-2-line-1 {
   font-size: 2.5rem;
   margin-bottom: 3rem;
+  color: #206CB3;
 }
 .products-diligience-section-2-line-2 {
-  font-size: 1.5rem;
+  font-family: 'Lato-Italic';
+  color: #206CB3;
+  font-size: 1.8rem;
   margin-bottom: 3rem;
 }
 .products-diligience-section-2-line-3 {
-  font-size: 1.2rem;
+  font-family: 'Lato-Medium';
+  font-size: 1.8rem;
   margin-bottom: 3rem;
 }
 .products-diligience-section-2-line-4 {
-  font-size: 1.5rem;
+  font-family: 'Lato-Italic';
+  color: #206CB3;
+  font-size: 1.8rem;
   margin-bottom: 3rem;
 }
 .products-diligience-section-2-line-5 {
-  font-size: 1.2rem;
+  font-family: 'Lato-Medium';
+  font-size: 1.8rem;
   margin-bottom: 3rem;
 }
 .products-diligience-section-2-line-6 {
-  font-size: 1.5rem;
+  font-family: 'Lato-Italic';
+  color: #206CB3;
+  font-size: 1.8rem;
   margin-bottom: 3rem;
 }
 .products-diligience-section-2-line-7 {
-  font-size: 1.2rem;
+  font-family: 'Lato-Medium';
+  font-size: 1.8rem;
   margin-bottom: 3rem;
 }
 
