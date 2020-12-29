@@ -79,17 +79,17 @@ const Products = () => {
             <h3 className="prdoucts-section3-key-benefits-header">KEY BENEFITS</h3>
             <h1 className="prdoucts-section3-key-benefits-h1">Speed: expedite the review </h1>
             <h3 className="prdoucts-section3-key-benefits-h3">
-              From 79 documents reviewed per hour manually to over 3600 documents reviewed per hour using Luminance
+              From 79 documents reviewed per hour manually to <span className="home-blue-span"> over 3600 documents reviewed per hour </span>using Luminance
           </h3>
             <h4 className="prdoucts-section3-key-benefits-h4"> - Bird & Bird</h4>
             <h1 className="prdoucts-section3-key-benefits-h1">Confidence: review 100% of documents</h1>
             <h3 className="prdoucts-section3-key-benefits-h3">
-              Using Luminance, the lawyers conducted their review 400 times faster, ensuring they could read and understand every document rather than rely on sampling or outsourcing to meet deadlines.
+              Using Luminance, the lawyers conducted their review 400 times faster, ensuring they could <span className="home-blue-span"> read and understand every document </span>rather than rely on sampling or outsourcing to meet deadlines.
           </h3>
             <h4 className="prdoucts-section3-key-benefits-h4">- Dentons</h4>
             <h1 className="prdoucts-section3-key-benefits-h1">Boost productivity</h1>
             <h3 className="prdoucts-section3-key-benefits-h3">
-              Review time slashed from seven months to just 10 days, representing a 1,440% increase in productivity and a 95% time-saving.
+              Review time slashed <span className="home-blue-span"> from seven months to just 10 days</span>, representing a <span className="home-blue-span">1,440% increase in productivity</span> and a <span className="home-blue-span">95% time-saving</span>.
           </h3>
             <h4 className="prdoucts-section3-key-benefits-h4">- EY</h4>
           </div>
