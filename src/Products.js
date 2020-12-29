@@ -110,7 +110,7 @@ const Products = () => {
             <div products-section-4-text-part-2-wrap>
               <h1 className="prdoucts-section-4-h1">Case studies</h1>
               <div className="products-section-4-links-wrap">
-                <Link to="/BIRD&BIRD" className="products-section-4-link">BIRD & BIRD</Link>
+                <Link to="/BIRD&BIRD" className="products-section-4-link"><span className="blue-span">BIRD & BIRD</span></Link>
                 <Link to="/M&A DUE DILIGENCE" className="products-section-4-link">M&A DUE DILIGENCE</Link>
                 <Link to="/PENNINGTONS MANCHES COOPER" className="products-section-4-link">PENNINGTONS MANCHES COOPER</Link>
                 <Link to="/GILIBERTI" className="products-section-4-link">GILIBERTI</Link>

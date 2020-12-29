@@ -592,6 +592,8 @@ body {
 .products-section-4-link {
   text-decoration: none;
   color: black;
+  font-size: 1.6rem;
+  font-family: 'Lato-Medium'
 }
 
 .products-section-4-link:hover {
@@ -630,6 +632,7 @@ body {
   font-size: 2.5rem;
   color: #206CB3;
   margin-bottom: 0;
+  font-weight: 500;
 }
 .prdoucts-section-4-h1 {
   font-size: 2.5rem;
@@ -638,13 +641,20 @@ body {
 .prdoucts-section-4-h2 {
   margin-bottom: 2rem;
   font-family: 'Lato-Medium';
+  margin-top: 3rem;
 }
 .prdoucts-section-4-h2-diligence {
   margin-top: 0;
   margin-bottom: 2rem;
   font-family: 'Lato-Medium';
+  font-size: 2rem;
+  font-weight: 500;
 }
 
+.blue-span {
+  color: #206CB3;
+  font-family: 'Lato-Medium';
+}
 
 .products-section-5 {
   display: flex;
