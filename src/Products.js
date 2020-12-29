@@ -76,22 +76,22 @@ const Products = () => {
             <iframe title="products-section-3-video" src="https://player.vimeo.com/video/427026743" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
           <div className="products-section-3-text-wrap">
-            <h3>KEY BENEFITS</h3>
-            <h1>Speed: expedite the review </h1>
-            <h3>
+            <h3 className="prdoucts-section3-key-benefits-header">KEY BENEFITS</h3>
+            <h1 className="prdoucts-section3-key-benefits-h1">Speed: expedite the review </h1>
+            <h3 className="prdoucts-section3-key-benefits-h3">
               From 79 documents reviewed per hour manually to over 3600 documents reviewed per hour using Luminance
           </h3>
-            <h4> - Bird & Bird</h4>
-            <h1>Confidence: review 100% of documents</h1>
-            <h3>
+            <h4 className="prdoucts-section3-key-benefits-h4"> - Bird & Bird</h4>
+            <h1 className="prdoucts-section3-key-benefits-h1">Confidence: review 100% of documents</h1>
+            <h3 className="prdoucts-section3-key-benefits-h3">
               Using Luminance, the lawyers conducted their review 400 times faster, ensuring they could read and understand every document rather than rely on sampling or outsourcing to meet deadlines.
           </h3>
-            <h4>- Dentons</h4>
-            <h1>Boost productivity</h1>
-            <h3>
+            <h4 className="prdoucts-section3-key-benefits-h4">- Dentons</h4>
+            <h1 className="prdoucts-section3-key-benefits-h1">Boost productivity</h1>
+            <h3 className="prdoucts-section3-key-benefits-h3">
               Review time slashed from seven months to just 10 days, representing a 1,440% increase in productivity and a 95% time-saving.
           </h3>
-            <h4>- EY</h4>
+            <h4 className="prdoucts-section3-key-benefits-h4">- EY</h4>
           </div>
         </div>
       </section>

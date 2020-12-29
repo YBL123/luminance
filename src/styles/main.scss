@@ -517,11 +517,10 @@ body {
 
 .products-section-3 {
   display: flex;
-  margin: 10rem;
-  margin-top: 0;
-  margin-bottom: 0;
+  // margin: 10rem;
+  // margin-top: 0;
+  // margin-bottom: 0;
   align-items: center;
-  // border-top: 3px solid #005A8A;
 }
 
 .products-section-3-text-wrap {
@@ -536,6 +535,29 @@ body {
 
 .products-section-3-video-wrap {
   margin-right: 5rem;
+}
+
+.prdoucts-section3-key-benefits-h1 {
+  font-size: 2.5rem;
+  color: #206CB3;
+}
+
+.prdoucts-section3-key-benefits-header {
+  font-family: 'Lato-Medium';
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.prdoucts-section3-key-benefits-h3 {
+  font-family: 'Lato-Medium';
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.prdoucts-section3-key-benefits-h4 {
+  font-family: 'Lato-Italic';
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .products-section-4 {
