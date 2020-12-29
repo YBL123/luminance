@@ -101,8 +101,8 @@ const Products = () => {
           <div className="products-section-4-text-wrap">
             <div products-section-4-text-part-1-wrap>
               <h2 className="prdoucts-section-4-h2">RELATED RESOURCES</h2>
-              <h1 className="prdoucts-section-4-h1-Diligence">Luminance Diligence</h1>
-              <h2 className="prdoucts-section-4-h2">product brochure</h2>
+              <h1 className="prdoucts-section-4-h1-diligence">Luminance Diligence</h1>
+              <h2 className="prdoucts-section-4-h2-diligence">product brochure</h2>
               <div className="products-section-4-request-button-wrap">
                 <button className="products-section-4-request-button">REQUEST</button>
               </div>
@@ -119,7 +119,7 @@ const Products = () => {
               <div className="products-section-4-dowload-button-wrap">
                 <button className="products-section-4-download-button">DOWNLOAD</button>
               </div>
-              <h3>SEE MORE RESOURCES HERE</h3>
+              <h2 className="prdoucts-section-4-h2">SEE MORE RESOURCES HERE</h2>
             </div>
           </div>
           <div className="products-section-4-video-wrap">
