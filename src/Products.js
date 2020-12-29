@@ -101,14 +101,14 @@ const Products = () => {
           <div className="products-section-4-text-wrap">
             <div products-section-4-text-part-1-wrap>
               <h3>RELATED RESOURCES</h3>
-              <h1>Luminance Diligence</h1>
-              <h2>product brochure</h2>
+              <h1 className="prdoucts-section-4-h1-Diligence">Luminance Diligence</h1>
+              <h2 className="prdoucts-section-4-h2">product brochure</h2>
               <div className="products-section-4-request-button-wrap">
                 <button className="products-section-4-request-button">REQUEST</button>
               </div>
             </div>
             <div products-section-4-text-part-2-wrap>
-              <h1>Case studies</h1>
+              <h1 className="prdoucts-section-4-h1">Case studies</h1>
               <div className="products-section-4-links-wrap">
                 <Link to="/BIRD&BIRD" className="products-section-4-link">BIRD & BIRD</Link>
                 <Link to="/M&A DUE DILIGENCE" className="products-section-4-link">M&A DUE DILIGENCE</Link>
