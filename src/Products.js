@@ -119,7 +119,7 @@ const Products = () => {
               <div className="products-section-4-dowload-button-wrap">
                 <button className="products-section-4-download-button">DOWNLOAD</button>
               </div>
-              <h2 className="prdoucts-section-4-h2">SEE MORE RESOURCES HERE</h2>
+              <h2 className="prdoucts-section-4-h2">SEE MORE RESOURCES <Link><span className="here">HERE</span></Link></h2>
             </div>
           </div>
           <div className="products-section-4-video-wrap">
@@ -160,7 +160,7 @@ const Products = () => {
           </div>
           </div>
           <div>
-            <h1 className="products-section-5-icon-h1">Clause models are designed for due diligence, lease review, compliance, employment review, underwriting and more</h1>
+            <h1 className="products-section-5-icon-h1-bottom">Clause models are designed for due diligence, lease review, compliance, employment review, underwriting and more</h1>
           </div>
         </div>
       </section>
