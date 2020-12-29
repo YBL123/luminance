@@ -439,6 +439,8 @@ body {
   // margin-top: 3rem;
   // margin-bottom: 3rem;
   // background: aliceblue;
+  border-bottom: 3px solid #005A8A;
+  border-left: 3px solid #005A8A;
 }
 
 .products-section-2-wrap {
@@ -458,6 +460,8 @@ body {
   padding-right: 10rem;
   padding-left: 5rem;
   background: aliceblue;
+  border-left: 3px solid #005A8A;
+  border-right: 3px solid #005A8A;
 }
 
 .products-diligience-quote-image {
@@ -468,7 +472,7 @@ body {
 
 .products-section-2-quote-image-wrap {
   padding-left: 15rem;
-  padding-right: 1.1rem;
+  padding-right: 0.45rem;
 }
 
 .products-diligience-section-2-line-1 {
@@ -517,7 +521,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   align-items: center;
-  border-top: 3px solid #005A8A;
+  // border-top: 3px solid #005A8A;
 }
 
 .products-section-3-text-wrap {
@@ -536,7 +540,7 @@ body {
 
 .products-section-4 {
   display: flex;
-  margin: 10rem;
+  // margin: 10rem;
   margin-top: 0;
   margin-bottom: 0;
   justify-content: center;
