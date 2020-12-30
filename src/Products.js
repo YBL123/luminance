@@ -76,22 +76,22 @@ const Products = () => {
             <iframe title="products-section-3-video" src="https://player.vimeo.com/video/427026743" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
           <div className="products-section-3-text-wrap">
-            <h3 className="prdoucts-section3-key-benefits-header">KEY BENEFITS</h3>
-            <h1 className="prdoucts-section3-key-benefits-h1">Speed: expedite the review </h1>
-            <h3 className="prdoucts-section3-key-benefits-h3">
+            <h3 className="products-section3-key-benefits-header">KEY BENEFITS</h3>
+            <h1 className="products-section3-key-benefits-h1">Speed: expedite the review </h1>
+            <h3 className="products-section3-key-benefits-h3">
               From 79 documents reviewed per hour manually to <span className="home-blue-span"> over 3600 documents reviewed per hour </span>using Luminance
           </h3>
-            <h4 className="prdoucts-section3-key-benefits-h4"> - Bird & Bird</h4>
-            <h1 className="prdoucts-section3-key-benefits-h1">Confidence: review 100% of documents</h1>
-            <h3 className="prdoucts-section3-key-benefits-h3">
+            <h4 className="products-section3-key-benefits-h4"> - Bird & Bird</h4>
+            <h1 className="products-section3-key-benefits-h1">Confidence: review 100% of documents</h1>
+            <h3 className="products-section3-key-benefits-h3">
               Using Luminance, the lawyers conducted their review 400 times faster, ensuring they could <span className="home-blue-span"> read and understand every document </span>rather than rely on sampling or outsourcing to meet deadlines.
           </h3>
-            <h4 className="prdoucts-section3-key-benefits-h4">- Dentons</h4>
-            <h1 className="prdoucts-section3-key-benefits-h1">Boost productivity</h1>
-            <h3 className="prdoucts-section3-key-benefits-h3">
+            <h4 className="products-section3-key-benefits-h4">- Dentons</h4>
+            <h1 className="products-section3-key-benefits-h1">Boost productivity</h1>
+            <h3 className="products-section3-key-benefits-h3">
               Review time slashed <span className="home-blue-span"> from seven months to just 10 days</span>, representing a <span className="home-blue-span">1,440% increase in productivity</span> and a <span className="home-blue-span">95% time-saving</span>.
           </h3>
-            <h4 className="prdoucts-section3-key-benefits-h4">- EY</h4>
+            <h4 className="products-section3-key-benefits-h4">- EY</h4>
           </div>
         </div>
       </section>
@@ -100,15 +100,15 @@ const Products = () => {
         <div className="products-section-4-div-wrap">
           <div className="products-section-4-text-wrap">
             <div products-section-4-text-part-1-wrap>
-              <h2 className="prdoucts-section-4-h2">RELATED RESOURCES</h2>
-              <h1 className="prdoucts-section-4-h1-diligence">Luminance Diligence</h1>
-              <h2 className="prdoucts-section-4-h2-diligence">product brochure</h2>
+              <h2 className="products-section-4-h2">RELATED RESOURCES</h2>
+              <h1 className="products-section-4-h1-diligence">Luminance Diligence</h1>
+              <h2 className="products-section-4-h2-diligence">product brochure</h2>
               <div className="products-section-4-request-button-wrap">
                 <button className="products-section-4-request-button">REQUEST</button>
               </div>
             </div>
             <div products-section-4-text-part-2-wrap>
-              <h1 className="prdoucts-section-4-h1">Case studies</h1>
+              <h1 className="products-section-4-h1">Case studies</h1>
               <div className="products-section-4-links-wrap">
                 <Link to="/BIRD&BIRD" className="products-section-4-link"><span className="blue-span">BIRD & BIRD</span></Link>
                 <Link to="/M&A DUE DILIGENCE" className="products-section-4-link">M&A DUE DILIGENCE</Link>
@@ -119,7 +119,7 @@ const Products = () => {
               <div className="products-section-4-dowload-button-wrap">
                 <button className="products-section-4-download-button">DOWNLOAD</button>
               </div>
-              <h2 className="prdoucts-section-4-h2">SEE MORE RESOURCES <Link><span className="here">HERE</span></Link></h2>
+              <h2 className="products-section-4-h2">SEE MORE RESOURCES <Link><span className="here">HERE</span></Link></h2>
             </div>
           </div>
           <div className="products-section-4-video-wrap">

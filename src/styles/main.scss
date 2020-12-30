@@ -27,7 +27,6 @@
 
 body {
   margin: 0;
-  // background: #8DCEE7;
 }
 
 //! NAVBAR
@@ -113,7 +112,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 9.8rem;
-  // padding: 15rem;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -147,7 +145,7 @@ body {
   margin-bottom: 0;
 }
 .home-text-section-2-h2-award {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #206CB3;
   margin: 0;
 }
@@ -163,7 +161,7 @@ body {
   flex-direction: column;
   align-items: center;
   background: aliceblue;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   border-top: 2px solid #005A8A;
 }
 
@@ -247,14 +245,14 @@ body {
 }
 
 .home-founded-by-text {
-  width: 90%;
-  font-size: 1.8rem;
-  font-family: 'Lato-Light';
+  width: 100%;
+  font-size: 2rem;
+  font-family: "Lato-Light";
 }
 
 .home-founded-by-text-2 {
   width: 80%;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #206CB3;
   margin-top: 1rem;
 }
@@ -318,7 +316,7 @@ body {
 
   .events-description-text {
     font-family: 'Lato-Medium';
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   .upcoming-events-wrap {
@@ -430,7 +428,8 @@ body {
 .products-section-1-paragraph-1 {
   margin-bottom: 3rem;
   font-size: 2rem;
-  font-family: 'Lato-Medium';
+  font-family: "Lato-Light";
+  font-weight: 600;
 }
 .products-section-1-paragraph-2 {
   margin-bottom: 3rem;
@@ -442,7 +441,8 @@ body {
 .products-section-1-paragraph-3 {
   margin-bottom: 3rem;
   font-size: 2rem;
-  font-family: "Lato-Medium";
+  font-family: "Lato-Light";
+  font-weight: 600;
 }
 .products-section-1-paragraph-4 {
   margin-bottom: 3rem;
@@ -468,9 +468,6 @@ body {
 }
 
 .products-section-2 {
-  // margin-top: 3rem;
-  // margin-bottom: 3rem;
-  // background: aliceblue;
   border-bottom: 3px solid #005A8A;
   border-left: 3px solid #005A8A;
 }
@@ -479,9 +476,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  // margin: 10rem;
-  // margin-bottom: 0;
-  // margin-top: 0;
 }
 
 .products-diligience-section-2-text-wrap {
@@ -549,10 +543,8 @@ body {
 
 .products-section-3 {
   display: flex;
-  // margin: 10rem;
-  // margin-top: 0;
-  // margin-bottom: 0;
   align-items: center;
+  margin: 3rem;
 }
 
 .products-section-3-text-wrap {
@@ -571,24 +563,24 @@ body {
   background: aliceblue;
 }
 
-.prdoucts-section3-key-benefits-h1 {
+.products-section3-key-benefits-h1 {
   font-size: 2.5rem;
   color: #206CB3;
 }
 
-.prdoucts-section3-key-benefits-header {
+.products-section3-key-benefits-header {
   font-family: 'Lato-Medium';
   font-size: 2rem;
   font-weight: 500;
 }
 
-.prdoucts-section3-key-benefits-h3 {
-  font-family: 'Lato-Medium';
-  font-size: 1.5rem;
-  font-weight: 500;
+.products-section3-key-benefits-h3 {
+  font-family: "Lato-Light";
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
-.prdoucts-section3-key-benefits-h4 {
+.products-section3-key-benefits-h4 {
   font-family: 'Lato-Italic';
   font-size: 1.5rem;
   font-weight: 500;
@@ -625,7 +617,8 @@ body {
   text-decoration: none;
   color: black;
   font-size: 1.6rem;
-  font-family: 'Lato-Medium'
+  font-family: 'Lato-Medium';
+  margin-bottom: 1rem;
 }
 .products-section-4-link:hover {
   color: #8DCEE7;
@@ -684,27 +677,27 @@ body {
   color: white;
 }
 
-.prdoucts-section-4-h1-diligence {
+.products-section-4-h1-diligence {
   font-size: 2.5rem;
   color: #206CB3;
   margin-bottom: 0;
   font-weight: 500;
 }
-.prdoucts-section-4-h1 {
+.products-section-4-h1 {
   font-size: 2.5rem;
   color: #206CB3;
 }
-.prdoucts-section-4-h2 {
+.products-section-4-h2 {
   margin-bottom: 2rem;
-  font-family: 'Lato-Medium';
+  font-family: "Lato-Light";
   margin-top: 3rem;
+  font-size: 1.8rem;
 }
-.prdoucts-section-4-h2-diligence {
+.products-section-4-h2-diligence {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-family: 'Lato-Medium';
+  font-family: "Lato-Light";
   font-size: 2rem;
-  font-weight: 500;
 }
 
 .products-section-4-video-wrap {
@@ -759,6 +752,9 @@ body {
 
 .products-section-5-icon-h1 {
   margin: 1.5rem;
+  font-family: "Lato-Medium";
+  font-weight: 300;
+  font-size: 1.6rem;
 }
 
 .products-section-5-icon-h1-bottom {
