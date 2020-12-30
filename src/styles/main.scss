@@ -337,11 +337,19 @@ body {
     }
     .event-image {
       width: 25rem;
+      transition-duration: 0.4s;
+    }
+    .event-image:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     }
     .event-header {
       font-size: 1.8rem;
       width: 23rem;
       color: #206CB3; 
+      transition-duration: 0.4s;
+    }
+    .event-header:hover {
+      color: #8DCEE7;
     }
     .request-invitation-button {
       background-color: #206CB3;
