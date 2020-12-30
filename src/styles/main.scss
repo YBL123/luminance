@@ -340,6 +340,7 @@ body {
       transition-duration: 0.4s;
     }
     .event-image:hover {
+      cursor: pointer;
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     }
     .event-header {
@@ -349,6 +350,7 @@ body {
       transition-duration: 0.4s;
     }
     .event-header:hover {
+      cursor: pointer;
       color: #8DCEE7;
     }
     .request-invitation-button {
@@ -622,10 +624,24 @@ body {
   font-size: 1.6rem;
   font-family: 'Lato-Medium'
 }
-
 .products-section-4-link:hover {
-  background-color: #6B98CC;
+  color: #8DCEE7;
 } 
+
+.blue-span {
+  color: #206CB3;
+  font-family: 'Lato-Medium';
+}
+.blue-span:hover {
+  color: #8DCEE7;
+}
+
+.here {
+  color: black;
+}
+.here:hover {
+  color: #8DCEE7;
+}
 
 .products-section-4-request-button {
   background-color: #206CB3;
@@ -688,19 +704,10 @@ body {
   font-weight: 500;
 }
 
-.blue-span {
-  color: #206CB3;
-  font-family: 'Lato-Medium';
-}
-
 .products-section-4-video-wrap {
   padding: 3rem;
   background: aliceblue;
   width: 50%;
-}
-
-.here {
-  color: black;
 }
 
 .products-section-5 {
