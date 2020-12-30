@@ -213,6 +213,11 @@ body {
   padding: 1.5rem;
   font-size: 1.4rem;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  transition-duration: 0.4s;
+}
+.home-view-more-cases-button:hover {
+  background-color: #8DCEE7; 
+  color: white;
 }
 
 .home-learn-about-diligence-button {
@@ -227,6 +232,11 @@ body {
   padding: 1.5rem;
   font-size: 1.4rem;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  transition-duration: 0.4s;
+}
+.home-learn-about-diligence-button:hover {
+  background-color: #8DCEE7; 
+  color: white;
 }
 
 .home-case-icon-names {
@@ -277,7 +287,6 @@ body {
   display: flex;
   flex-direction: column;
   background: aliceblue;
-  // padding: 5rem;
 }
 
 .events-header-h1 {
@@ -346,6 +355,11 @@ body {
       padding: 1.5rem;
       font-size: 1.4rem;
       box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+      transition-duration: 0.4s;
+    }
+    .request-invitation-button:hover {
+      background-color: #8DCEE7; 
+      color: white;
     }
 
     .event-date {
@@ -433,6 +447,11 @@ body {
   padding: 1.5rem;
   font-size: 1.4rem;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  transition-duration: 0.4s;
+}
+.products-explore-discovery-button:hover {
+  background-color: #8DCEE7; 
+  color: white;
 }
 
 .products-section-2 {
@@ -612,6 +631,11 @@ body {
   padding: 1.5rem;
   font-size: 1.4rem;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  transition-duration: 0.4s;
+}
+.products-section-4-request-button:hover {
+  background-color: #8DCEE7; 
+  color: white;
 }
 
 .products-section-4-download-button {
@@ -626,6 +650,11 @@ body {
   padding: 1.5rem;
   font-size: 1.4rem;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  transition-duration: 0.4s;
+}
+.products-section-4-download-button:hover {
+  background-color: #8DCEE7; 
+  color: white;
 }
 
 .prdoucts-section-4-h1-diligence {
