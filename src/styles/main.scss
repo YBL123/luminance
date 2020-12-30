@@ -32,7 +32,6 @@ body {
 
 //! NAVBAR
 .navbar {
-  // border-bottom: 2px solid black;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   background: #005A8A;
   .navbar-item {
@@ -45,7 +44,6 @@ body {
     background-color: #6B98CC;
     padding: 2.5rem;
     font-size: 2rem;
-    // opacity: 20%;
     color: white;
   } 
   a {
@@ -97,6 +95,10 @@ body {
   text-decoration: none;
   font-size: 1.6rem;
   color: #ebe7e7;
+  transition-duration: 0.4s;
+}
+.footer-item:hover {
+  color: #8DCEE7;
 }
 
 .copy {
