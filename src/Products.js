@@ -159,7 +159,7 @@ const Products = () => {
             </div>
           </div>
           </div>
-          <div>
+          <div className="prodcuts-section-5-last-paragraph-wrap">
             <h1 className="products-section-5-icon-h1-bottom">Clause models are designed for due diligence, lease review, compliance, employment review, underwriting and more</h1>
           </div>
         </div>

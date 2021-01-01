@@ -87,6 +87,34 @@
         width: 80%;
         text-align: center;
       }
+      .products-section-4-div-wrap {
+        flex-direction: column-reverse;
+      }
+      .products-section-4-video-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        margin-top: 5rem;
+      }
+      .products-section-4-text-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .products-section-4-text-part-1-wrap {
+        margin-right: 20rem;
+      }
+      .products-section-5-icon-h1-bottom {
+        text-align: center;
+      }
+      .prodcuts-section-5-last-paragraph-wrap {
+        width: 90%;
+      }
+      .products-section-5-icon-h1 {
+        text-align: center;
+      }
     
   }
 
