@@ -99,7 +99,7 @@ const Products = () => {
       <section className="products-section-4">
         <div className="products-section-4-div-wrap">
           <div className="products-section-4-text-wrap">
-            <div products-section-4-text-part-1-wrap>
+            <div className="products-section-4-text-part-1-wrap">
               <h2 className="products-section-4-h2">RELATED RESOURCES</h2>
               <h1 className="products-section-4-h1-diligence">Luminance Diligence</h1>
               <h2 className="products-section-4-h2-diligence">product brochure</h2>
@@ -107,7 +107,7 @@ const Products = () => {
                 <button className="products-section-4-request-button">REQUEST</button>
               </div>
             </div>
-            <div products-section-4-text-part-2-wrap>
+            <div className="products-section-4-text-part-2-wrap">
               <h1 className="products-section-4-h1">Case studies</h1>
               <div className="products-section-4-links-wrap">
                 <Link to="/BIRD&BIRD" className="products-section-4-link"><span className="blue-span">BIRD & BIRD</span></Link>
@@ -119,7 +119,7 @@ const Products = () => {
               <div className="products-section-4-dowload-button-wrap">
                 <button className="products-section-4-download-button">DOWNLOAD</button>
               </div>
-              <h2 className="products-section-4-h2">SEE MORE RESOURCES <Link><span className="here">HERE</span></Link></h2>
+              <h2 className="products-section-4-h2 see-more-resources">SEE MORE RESOURCES <Link><span className="here">HERE</span></Link></h2>
             </div>
           </div>
           <div className="products-section-4-video-wrap">
