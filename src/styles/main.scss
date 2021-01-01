@@ -439,15 +439,13 @@ body {
   // padding: 9.8rem;
   height: 45rem;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
 }
 
 .home-text-section-1 {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin-left: 65rem;
-  width: 48%;
+  margin-left: 75rem;
 }
 .home-text-section-1-h1 {
   font-size: 5rem;
@@ -458,6 +456,13 @@ body {
   font-size: 2.5rem;
   color: #206CB3;
   text-align: center;
+  width: 45%;
+  margin-left: 70rem;
+}
+
+.home-text-section-1-h3-wrap {
+  display: flex;
+  justify-content: center;
 }
 
 .home-section-2 {
