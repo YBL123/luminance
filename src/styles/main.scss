@@ -24,9 +24,31 @@
 
   }
 
+  @media screen and (max-width: 770px) {
+    font-size: 0.5rem;
 
-
-
+      .home-header-section {
+        padding: 1.3rem;
+      }
+      .home-text-section-1 {
+        margin-left: 55rem;
+      }
+      .home-founded-by-text {
+        text-align: center;
+      }
+      .home-founded-by-text-2 {
+        text-align: center;
+      }
+      .home-h4 {
+        font-size: 1.4rem;
+        text-align: center;
+      }
+      .home-section-3-h3-bottom {
+        text-align: center;
+        width: 80%;
+      }
+      
+  }
 
 
 
