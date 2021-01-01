@@ -91,6 +91,30 @@
     .products-diligience-section-2-line-7 {
       width: 90%;
     }
+    .products-section-3-div-wrap {
+      flex-direction: column;
+    }
+    .products-section-3-text-wrap {
+      width: 80%;
+    }
+    .products-section-3 {
+      margin: 0 auto;
+    }
+    .products-section-3-video-wrap {
+      margin-right: 0;
+      padding: 0;
+      background: none;
+      width: 100%;
+      margin: 0;
+    }
+    .products-section-3-video {
+      width: 55rem !important;
+      height: 30rem;
+    }
+    iframe {
+      width: 60rem;
+    height: 30rem;
+    }
     
   }
   
