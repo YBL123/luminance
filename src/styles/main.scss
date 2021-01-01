@@ -175,7 +175,7 @@
         display: flex;
         flex-direction: column;
         padding: 0;
-        height: 30%;
+        // height: 30%;
     }
     .navbar .navbar-item {
       padding: 1rem;
@@ -199,6 +199,11 @@
     .home-section-3-h3-bottom {
       text-align: center;
     }
+    
+    .home-section-2 {
+      margin-top: 10rem;
+    }
+
     .products-diligience-header-image {
       display: none;
     }
