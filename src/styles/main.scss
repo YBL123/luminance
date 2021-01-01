@@ -34,7 +34,7 @@
         margin-left: 55rem;
       }
       .home-founded-by-text {
-        text-align: center;
+        width: 100%;
       }
       .home-founded-by-text-2 {
         text-align: center;
@@ -47,7 +47,47 @@
         text-align: center;
         width: 80%;
       }
-      
+      .events-description-wrap {
+        width: 80%;
+      }
+      .products-diligience-header-image-wrap {
+        align-self: none;
+      }
+      .products-diligience-header-image {
+        width: 50rem;
+        height: 50rem;
+        margin: 3rem;
+      }
+      .products-diligience-header-wrap {
+        margin: 3rem;
+        margin-left: 0;
+      }
+      .products-diligience-quote-image {
+        width: 45rem;
+      }
+      .products-diligience-section-2-text-wrap {
+        align-items: center;
+        width: 100%;
+        padding: 3rem;
+        text-align: center;
+      }
+      iframe {
+        height: 40rem;
+        width: 72rem;
+      }
+      .products-section-3-video-wrap {
+        padding: 3rem;
+        margin-right: 0;
+      }
+      .products-section-3-div-wrap {
+        display: flex;
+        flex-direction: column;
+      }
+      .products-section-3-text-wrap {
+        width: 80%;
+        text-align: center;
+      }
+    
   }
 
 
