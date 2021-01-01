@@ -15,7 +15,8 @@
         width: 100%;
       }
       iframe {
-        width: 60rem;
+        width: 72rem;
+        height: 40rem;
       }
       .products-section-3-video-wrap {
       padding-top: 0.4rem;
@@ -23,6 +24,9 @@
       }
       .products-section-4-video-wrap {
         width: 100%;
+      }
+      .products-section-3-video-wrap {
+        padding: 3rem !important;
       }
 
   }
@@ -117,6 +121,9 @@
       }
       .products-section-5-icon-h1 {
         text-align: center;
+      }
+      .products-section-4-video-wrap {
+        margin-left: 0 !important;
       }
     
   }
@@ -861,7 +868,7 @@ body {
 
 .products-section-3-video-wrap {
   margin-right: 5rem;
-  padding: 5rem;
+  padding: 3rem;
   background: aliceblue;
 }
 
