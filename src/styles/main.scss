@@ -1,10 +1,38 @@
 :root {
   font-size: 10px;
-  @media screen and (max-width: 770px) {
+  @media screen and (max-width: 1025px) {
     font-size: 0.5rem;
+
+      .home-header-section {
+        padding: 4rem;
+      }
+      .products-section-2-quote-image-wrap {
+        padding-left: 0;
+      }
+      .products-diligience-section-2-text-wrap {
+        padding-right: 0;
+        align-items: center;
+        width: 100%;
+      }
+      iframe {
+        width: 60rem;
+      }
+      .products-section-3-video-wrap {
+      padding-top: 0.4rem;
+      padding-bottom: 0.4rem;
+      }
+
   }
+
+
+
+
+
+
+
   @media screen and (max-width: 415px) {
     font-size: 0.4rem;
+
       .nav-logo {
         width: 20rem;
         margin: 1rem;
