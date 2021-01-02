@@ -12,19 +12,19 @@ const Home = () => {
 
   return (
     <>
-      <container className="home-header-container">
+      <div className="home-header-container">
         <div className="home-header-image-wrap">
         <img className="home-header-image" src={homeHEader} alt="home header" />
         </div>
         <div className="home-text-section-1">
           <h1 className="home-text-section-1-h1">The artificial intelligence platform for the legal profession</h1>
         </div>
-        <div className="home-text-section-1-h3-wrap">
+      </div>
+      <div className="home-text-section-1-h3-wrap">
         <h3 className="home-text-section-1-h3">
             Analyse documents with unmatched speed and enhanced confidence, and apply that learning across all departments and practice areas
         </h3>
         </div>
-      </container>
       <section className="home-section-2">
         <div className="home-section-2-info-wrap">
           <h1 className="home-text-section-2-h1-award">

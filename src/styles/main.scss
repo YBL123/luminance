@@ -170,12 +170,12 @@
       }
       .home-text-section-1-h3-wrap {
         position: relative;
-        top: 0rem;
-        left: 0rem;
-        width: 85%;
+        top: unset;
+        left: unset;
+        margin: 0 27px;
+        width: unset;
         display: flex;
         justify-content: center;
-        margin: auto;
         border-bottom: 3px solid #005A8A;
       }
       .home-header-section {
@@ -468,7 +468,7 @@ body {
 
 .home-text-section-1-h3-wrap {
   position: absolute;
-  top: 30rem;
+  top: 38rem;
   left: 78rem;
   width: 60rem;
 }
