@@ -439,42 +439,54 @@ body {
 
 
 //HOME
-.home-header-section {
-  background-image: url("../assets/Luminance-platform-2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  // padding: 9.8rem;
-  display: flex;
-  flex-direction: column;
+.home-header-container {
+  // background-image: url("../assets/Luminance-platform-2.jpg");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // // padding: 9.8rem;
+  // display: flex;
+  // flex-direction: column;
+
+  position: relative;
+  text-align: center;
 }
 
-// .home-header-image {
-//   width: 100%;
-// }
+.home-header-image {
+  width: 100%;
+}
 
 .home-text-section-1 {
-  display: flex;
-  align-items: center;
-  // margin-left: 75rem;
-  justify-content: center;
+  // display: flex;
+  // align-items: center;
+  // // margin-left: 75rem;
+  // justify-content: center;
+  position: absolute;
+  top: 3.5rem;
+  left: 78rem;
+  width: 60rem;
 }
+
 .home-text-section-1-h1 {
   font-size: 5rem;
-  text-align: center;
-  padding-left: 66rem;
-  width: 60rem;
+  // text-align: center;
+  // padding-left: 66rem;
+  // width: 60rem;
 }
 .home-text-section-1-h3 {
   font-size: 2.5rem;
   color: #206CB3;
   text-align: center;
-  padding-left: 68rem;
-  width: 70rem;
+  // padding-left: 68rem;
+  // width: 70rem;
 }
 
 .home-text-section-1-h3-wrap {
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
+  position: absolute;
+  top: 30rem;
+  left: 78rem;
+  width: 60rem;
 }
 
 .home-section-2 {
