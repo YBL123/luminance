@@ -73,25 +73,29 @@ const Products = () => {
       <section className="products-section-3">
         <div className="products-section-3-div-wrap">
           <div className="products-section-3-video-wrap">
-            <iframe title="products-section-3-video" src="https://player.vimeo.com/video/427026743" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <div className="frame">
+            <iframe title="products-section-3-video" src="https://player.vimeo.com/video/427026743" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
           </div>
           <div className="products-section-3-text-wrap">
-            <h3 className="products-section3-key-benefits-header">KEY BENEFITS</h3>
-            <h1 className="products-section3-key-benefits-h1">Speed: expedite the review </h1>
-            <h3 className="products-section3-key-benefits-h3">
-              From 79 documents reviewed per hour manually to <span className="home-blue-span"> over 3600 documents reviewed per hour </span>using Luminance
+            <div>
+              <h3 className="products-section3-key-benefits-header">KEY BENEFITS</h3>
+              <h1 className="products-section3-key-benefits-h1">Speed: expedite the review </h1>
+              <h3 className="products-section3-key-benefits-h3">
+                From 79 documents reviewed per hour manually to <span className="home-blue-span"> over 3600 documents reviewed per hour </span>using Luminance
           </h3>
-            <h4 className="products-section3-key-benefits-h4"> - Bird & Bird</h4>
-            <h1 className="products-section3-key-benefits-h1">Confidence: review 100% of documents</h1>
-            <h3 className="products-section3-key-benefits-h3">
-              Using Luminance, the lawyers conducted their review 400 times faster, ensuring they could <span className="home-blue-span"> read and understand every document </span>rather than rely on sampling or outsourcing to meet deadlines.
+              <h4 className="products-section3-key-benefits-h4"> - Bird & Bird</h4>
+              <h1 className="products-section3-key-benefits-h1">Confidence: review 100% of documents</h1>
+              <h3 className="products-section3-key-benefits-h3">
+                Using Luminance, the lawyers conducted their review 400 times faster, ensuring they could <span className="home-blue-span"> read and understand every document </span>rather than rely on sampling or outsourcing to meet deadlines.
           </h3>
-            <h4 className="products-section3-key-benefits-h4">- Dentons</h4>
-            <h1 className="products-section3-key-benefits-h1">Boost productivity</h1>
-            <h3 className="products-section3-key-benefits-h3">
-              Review time slashed <span className="home-blue-span"> from seven months to just 10 days</span>, representing a <span className="home-blue-span">1,440% increase in productivity</span> and a <span className="home-blue-span">95% time-saving</span>.
+              <h4 className="products-section3-key-benefits-h4">- Dentons</h4>
+              <h1 className="products-section3-key-benefits-h1">Boost productivity</h1>
+              <h3 className="products-section3-key-benefits-h3">
+                Review time slashed <span className="home-blue-span"> from seven months to just 10 days</span>, representing a <span className="home-blue-span">1,440% increase in productivity</span> and a <span className="home-blue-span">95% time-saving</span>.
           </h3>
-            <h4 className="products-section3-key-benefits-h4">- EY</h4>
+              <h4 className="products-section3-key-benefits-h4">- EY</h4>
+            </div>
           </div>
         </div>
       </section>
@@ -135,29 +139,29 @@ const Products = () => {
           </div>
           <div className="products-section-5-icons-wrap">
             <div className="products-section-5-icon-title-wrap">
-            <div className="products-section-5-icon-wrap">
-              <img className="products-section-5-icon" src={useLuminancesAi} alt="use-luminances-ai-icon" />
-            </div>
-            <div>
-              <h1 className="products-section-5-icon-h1">Use Luminance’s AI-built models or build your own</h1>
+              <div className="products-section-5-icon-wrap">
+                <img className="products-section-5-icon" src={useLuminancesAi} alt="use-luminances-ai-icon" />
+              </div>
+              <div>
+                <h1 className="products-section-5-icon-h1">Use Luminance’s AI-built models or build your own</h1>
               </div>
             </div>
             <div className="products-section-5-icon-title-wrap">
-            <div className="products-section-5-icon-wrap">
-              <img className="products-section-5-icon" src={blockAutomatic} alt="block-automati-icon" />
-            </div>
-            <div>
-            <h1 className="products-section-5-icon-h1">Automatic pre-set clause models</h1>
-            </div>
+              <div className="products-section-5-icon-wrap">
+                <img className="products-section-5-icon" src={blockAutomatic} alt="block-automati-icon" />
+              </div>
+              <div>
+                <h1 className="products-section-5-icon-h1">Automatic pre-set clause models</h1>
+              </div>
             </div>
             <div className="products-section-5-icon-title-wrap">
-            <div className="products-section-5-icon-wrap">
-              <img className="products-section-5-icon" src={beginReview} alt="begin-review-icon" />
+              <div className="products-section-5-icon-wrap">
+                <img className="products-section-5-icon" src={beginReview} alt="begin-review-icon" />
+              </div>
+              <div>
+                <h1 className="products-section-5-icon-h1">Begin your review within the hour</h1>
+              </div>
             </div>
-            <div>
-            <h1 className="products-section-5-icon-h1">Begin your review within the hour</h1>
-            </div>
-          </div>
           </div>
           <div className="prodcuts-section-5-last-paragraph-wrap">
             <h1 className="products-section-5-icon-h1-bottom">Clause models are designed for due diligence, lease review, compliance, employment review, underwriting and more</h1>
