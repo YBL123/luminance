@@ -154,15 +154,16 @@
       }
       .home-text-section-1 {
         margin: 0;
-        padding-left: 32rem;
+        // padding-left: 32rem;
       }
       .home-text-section-1-h1 {
         font-size: 2.5rem;
-        // font-size: 3rem;
+        padding-left: 32rem;
       }
       .home-text-section-1-h3 {
         margin: 1rem;
         width: 90%;
+        padding-left: 0;
       }
       .home-text-section-1-h3-wrap {
         // margin-top: 9rem;
@@ -459,15 +460,16 @@ body {
 }
 .home-text-section-1-h1 {
   font-size: 5rem;
-  width: 90%;
   text-align: center;
+  padding-left: 66rem;
+  width: 60rem;
 }
 .home-text-section-1-h3 {
   font-size: 2.5rem;
   color: #206CB3;
   text-align: center;
-  width: 45%;
-  // margin-left: 70rem;
+  padding-left: 68rem;
+  width: 70rem;
 }
 
 .home-text-section-1-h3-wrap {
