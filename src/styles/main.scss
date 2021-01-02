@@ -153,30 +153,32 @@
         margin: 0 auto;
       }
       .home-text-section-1 {
+        position: absolute;
+        top: 3rem;
+        left: 30rem;
+        width: 26rem;
         margin: 0;
-        // padding-left: 32rem;
       }
       .home-text-section-1-h1 {
         font-size: 2.5rem;
-        padding-left: 32rem;
       }
       .home-text-section-1-h3 {
         margin: 1rem;
         width: 90%;
         padding-left: 0;
+        font-size: 2.3rem;
       }
       .home-text-section-1-h3-wrap {
-        // margin-top: 9rem;
-        border-bottom: 2px solid #206CB3;
+        position: relative;
+        top: 0rem;
+        left: 0rem;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        border-bottom: 3px solid #005A8A;
       }
       .home-header-section {
-        // background-image: url('../assets/home-opacity.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        // padding: 0;
-        // margin-bottom: 5rem;
     }
     .navbar .navbar-item {
       padding: 1rem;
@@ -440,13 +442,6 @@ body {
 
 //HOME
 .home-header-container {
-  // background-image: url("../assets/Luminance-platform-2.jpg");
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // // padding: 9.8rem;
-  // display: flex;
-  // flex-direction: column;
-
   position: relative;
   text-align: center;
 }
@@ -456,10 +451,6 @@ body {
 }
 
 .home-text-section-1 {
-  // display: flex;
-  // align-items: center;
-  // // margin-left: 75rem;
-  // justify-content: center;
   position: absolute;
   top: 3.5rem;
   left: 78rem;
@@ -468,21 +459,14 @@ body {
 
 .home-text-section-1-h1 {
   font-size: 5rem;
-  // text-align: center;
-  // padding-left: 66rem;
-  // width: 60rem;
 }
 .home-text-section-1-h3 {
   font-size: 2.5rem;
   color: #206CB3;
   text-align: center;
-  // padding-left: 68rem;
-  // width: 70rem;
 }
 
 .home-text-section-1-h3-wrap {
-  // display: flex;
-  // justify-content: center;
   position: absolute;
   top: 30rem;
   left: 78rem;
