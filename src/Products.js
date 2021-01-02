@@ -74,7 +74,7 @@ const Products = () => {
         <div className="products-section-3-div-wrap">
           <div className="products-section-3-video-wrap">
             <div className="frame">
-            <iframe title="products-section-3-video" src="https://player.vimeo.com/video/427026743" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              <iframe title="products-section-3-video" src="https://player.vimeo.com/video/427026743" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </div>
           </div>
           <div className="products-section-3-text-wrap">
@@ -127,7 +127,9 @@ const Products = () => {
             </div>
           </div>
           <div className="products-section-4-video-wrap">
-            <iframe title="vimeo-player" src="https://player.vimeo.com/video/379008957" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+            <div className="frame">
+              <iframe title="vimeo-player" src="https://player.vimeo.com/video/379008957" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </section>
