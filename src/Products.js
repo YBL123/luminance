@@ -108,7 +108,7 @@ const Products = () => {
               <h1 className="products-section-4-h1-diligence">Luminance Diligence</h1>
               <h2 className="products-section-4-h2-diligence">product brochure</h2>
               {/* <div className="products-section-4-request-button-wrap"> */}
-                {/* <button className="products-section-4-request-button">REQUEST</button> */}
+                <button className="products-section-4-request-button">REQUEST</button>
               {/* </div> */}
             </div>
             <div className="products-section-4-text-part-2-wrap">
@@ -121,7 +121,7 @@ const Products = () => {
                 <Link to="/VIEIRA DE ALMEIDA" className="products-section-4-link">VIEIRA DE ALMEIDA</Link>
               </div>
               {/* <div className="products-section-4-dowload-button-wrap"> */}
-                {/* <button className="products-section-4-download-button">DOWNLOAD</button> */}
+                <button className="products-section-4-download-button">DOWNLOAD</button>
               {/* </div> */}
               <h2 className="products-section-4-h2 see-more-resources">SEE MORE RESOURCES <Link><span className="here">HERE</span></Link></h2>
             </div>
