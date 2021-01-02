@@ -1,142 +1,142 @@
 :root {
   font-size: 10px;
-  @media screen and (max-width: 1025px) {
-    font-size: 0.5rem;
+  // @media screen and (max-width: 1025px) {
+  //   font-size: 0.5rem;
 
-      .home-header-section {
-        // padding: 4rem;
-      }
-      .products-section-2-quote-image-wrap {
-        padding-left: 0;
-      }
-      .products-diligience-section-2-text-wrap {
-        padding-right: 0;
-        align-items: center;
-        width: 100%;
-      }
-      iframe {
-        width: 72rem;
-        height: 40rem;
-      }
-      .products-section-3-video-wrap {
-      padding-top: 0.4rem;
-      padding-bottom: 0.4rem;
-      }
-      .products-section-4-video-wrap {
-        width: 100%;
-      }
-      .products-section-3-video-wrap {
-        padding: 3rem !important;
-      }
+  //     .home-header-section {
+  //       // padding: 4rem;
+  //     }
+  //     .products-section-2-quote-image-wrap {
+  //       padding-left: 0;
+  //     }
+  //     .products-diligience-section-2-text-wrap {
+  //       padding-right: 0;
+  //       align-items: center;
+  //       width: 100%;
+  //     }
+  //     iframe {
+  //       width: 72rem;
+  //       height: 40rem;
+  //     }
+  //     .products-section-3-video-wrap {
+  //     padding-top: 0.4rem;
+  //     padding-bottom: 0.4rem;
+  //     }
+  //     .products-section-4-video-wrap {
+  //       width: 100%;
+  //     }
+  //     .products-section-3-video-wrap {
+  //       padding: 3rem !important;
+  //     }
 
-  }
+  // }
 
-  @media screen and (max-width: 770px) {
-    font-size: 0.5rem;
+  // @media screen and (max-width: 770px) {
+  //   font-size: 0.5rem;
 
-      .home-header-section {
-        // padding: 1.3rem;
-      }
-      .home-text-section-1 {
-        margin-left: 58rem;
-      }
-      .home-text-section-1-h1 {
-        font-size: 4rem;
-        width: 100%;
-        text-align: center;
-      }
-      .home-text-section-1-h3 {
-        width: 38%;
-        margin-left: 60rem;
-        margin-top: 0;
-      }
-      .home-founded-by-text {
-        width: 100%;
-      }
-      .home-founded-by-text-2 {
-        text-align: center;
-      }
-      .home-h4 {
-        font-size: 1.4rem;
-        text-align: center;
-      }
-      .home-section-3-h3-bottom {
-        text-align: center;
-        width: 80%;
-      }
-      .events-description-wrap {
-        width: 80%;
-      }
-      .products-diligience-header-image-wrap {
-        align-self: none;
-      }
-      .products-diligience-header-image {
-        width: 50rem;
-        height: 50rem;
-        margin: 3rem;
-      }
-      .products-diligience-header-wrap {
-        margin: 3rem;
-        margin-left: 0;
-      }
-      .products-diligience-quote-image {
-        width: 45rem;
-      }
-      .products-diligience-section-2-text-wrap {
-        align-items: center;
-        width: 100%;
-        padding: 3rem;
-        text-align: center;
-      }
-      iframe {
-        height: 40rem;
-        width: 72rem;
-      }
-      .products-section-3-video-wrap {
-        padding: 3rem;
-        margin-right: 0;
-      }
-      .products-section-3-div-wrap {
-        display: flex;
-        flex-direction: column;
-      }
-      .products-section-3-text-wrap {
-        width: 80%;
-        text-align: center;
-      }
-      .products-section-4-div-wrap {
-        flex-direction: column-reverse;
-      }
-      .products-section-4-video-wrap {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding-right: 1.5rem;
-        padding-left: 1.5rem;
-        margin-top: 5rem;
-      }
-      .products-section-4-text-wrap {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-      }
-      .products-section-4-text-part-1-wrap {
-        margin-right: 20rem;
-      }
-      .products-section-5-icon-h1-bottom {
-        text-align: center;
-      }
-      .prodcuts-section-5-last-paragraph-wrap {
-        width: 90%;
-      }
-      .products-section-5-icon-h1 {
-        text-align: center;
-      }
-      .products-section-4-video-wrap {
-        margin-left: 0 !important;
-      }
+  //     .home-header-section {
+  //       // padding: 1.3rem;
+  //     }
+  //     .home-text-section-1 {
+  //       margin-left: 58rem;
+  //     }
+  //     .home-text-section-1-h1 {
+  //       font-size: 4rem;
+  //       width: 100%;
+  //       text-align: center;
+  //     }
+  //     .home-text-section-1-h3 {
+  //       width: 38%;
+  //       margin-left: 60rem;
+  //       margin-top: 0;
+  //     }
+  //     .home-founded-by-text {
+  //       width: 100%;
+  //     }
+  //     .home-founded-by-text-2 {
+  //       text-align: center;
+  //     }
+  //     .home-h4 {
+  //       font-size: 1.4rem;
+  //       text-align: center;
+  //     }
+  //     .home-section-3-h3-bottom {
+  //       text-align: center;
+  //       width: 80%;
+  //     }
+  //     .events-description-wrap {
+  //       width: 80%;
+  //     }
+  //     .products-diligience-header-image-wrap {
+  //       align-self: none;
+  //     }
+  //     .products-diligience-header-image {
+  //       width: 50rem;
+  //       height: 50rem;
+  //       margin: 3rem;
+  //     }
+  //     .products-diligience-header-wrap {
+  //       margin: 3rem;
+  //       margin-left: 0;
+  //     }
+  //     .products-diligience-quote-image {
+  //       width: 45rem;
+  //     }
+  //     .products-diligience-section-2-text-wrap {
+  //       align-items: center;
+  //       width: 100%;
+  //       padding: 3rem;
+  //       text-align: center;
+  //     }
+  //     iframe {
+  //       height: 40rem;
+  //       width: 72rem;
+  //     }
+  //     .products-section-3-video-wrap {
+  //       padding: 3rem;
+  //       margin-right: 0;
+  //     }
+  //     .products-section-3-div-wrap {
+  //       display: flex;
+  //       flex-direction: column;
+  //     }
+  //     .products-section-3-text-wrap {
+  //       width: 80%;
+  //       text-align: center;
+  //     }
+  //     .products-section-4-div-wrap {
+  //       flex-direction: column-reverse;
+  //     }
+  //     .products-section-4-video-wrap {
+  //       width: 100%;
+  //       display: flex;
+  //       justify-content: center;
+  //       padding-right: 1.5rem;
+  //       padding-left: 1.5rem;
+  //       margin-top: 5rem;
+  //     }
+  //     .products-section-4-text-wrap {
+  //       width: 100%;
+  //       display: flex;
+  //       justify-content: center;
+  //     }
+  //     .products-section-4-text-part-1-wrap {
+  //       margin-right: 20rem;
+  //     }
+  //     .products-section-5-icon-h1-bottom {
+  //       text-align: center;
+  //     }
+  //     .prodcuts-section-5-last-paragraph-wrap {
+  //       width: 90%;
+  //     }
+  //     .products-section-5-icon-h1 {
+  //       text-align: center;
+  //     }
+  //     .products-section-4-video-wrap {
+  //       margin-left: 0 !important;
+  //     }
     
-  }
+  // }
 
 
 
@@ -211,6 +211,11 @@
     .products-diligience-header-image {
       display: none;
     }
+
+    .products-section-1-paragraph-2 {
+      text-align: center;
+    }
+
     .products-section-2-wrap {
       flex-direction: column;
     }
@@ -262,10 +267,6 @@
     .products-section-3-video-wrap iframe{
       height: 200px;
     }
-    // .products-section-3-video {
-    //   width: 55rem !important;
-    //   height: 30rem;
-    // }
 
     .products-section-4-div-wrap {
       flex-direction: column;
