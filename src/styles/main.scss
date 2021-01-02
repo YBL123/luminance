@@ -167,11 +167,12 @@
         border-bottom: 2px solid #206CB3;
       }
       .home-header-section {
-        // background-image: url('../assets/home-opacity.png');
+        background-image: url('../assets/home-opacity.png');
         background-repeat: no-repeat;
         background-size: contain;
         display: flex;
         flex-direction: column;
+        padding: 0;
         // margin-bottom: 5rem;
     }
     .navbar .navbar-item {
