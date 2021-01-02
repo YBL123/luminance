@@ -269,6 +269,7 @@
 
     .products-section-4-div-wrap {
       flex-direction: column;
+      padding: unset;
     }
     .products-section-4-text-wrap {
       width: 80%;
@@ -955,10 +956,11 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
+  padding: 0 200px;
 }
 
 .products-section-4-text-wrap {
-  flex: 1
+  flex: 0.5
 }
 
 .products-section-4-text-part-1-wrap {
