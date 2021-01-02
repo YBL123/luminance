@@ -5,17 +5,18 @@ import dataProtection from './assets/data_protection.png'
 import dueDiligence from './assets/due_diligence.png'
 import realEstate from './assets/real_estate.png'
 import repapering from './assets/repapering.png'
+import homeHEader from './assets/Luminance-platform-2.jpg'
 
 const Home = () => {
 
   return (
     <>
       <section className="home-header-section">
+        <div className="home-header-image-wrap">
+        {/* <img className="home-header-image" src={homeHEader} alt="home header" /> */}
+        </div>
         <div className="home-text-section-1">
           <h1 className="home-text-section-1-h1">The artificial intelligence platform for the legal profession</h1>
-          {/* <h3 className="home-text-section-1-h3">
-            Analyse documents with unmatched speed and enhanced confidence, and apply that learning across all departments and practice areas
-        </h3> */}
         </div>
         <div className="home-text-section-1-h3-wrap">
         <h3 className="home-text-section-1-h3">

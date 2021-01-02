@@ -442,15 +442,19 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   // padding: 9.8rem;
-  height: 45rem;
   display: flex;
   flex-direction: column;
 }
 
+// .home-header-image {
+//   width: 100%;
+// }
+
 .home-text-section-1 {
   display: flex;
   align-items: center;
-  margin-left: 75rem;
+  // margin-left: 75rem;
+  justify-content: center;
 }
 .home-text-section-1-h1 {
   font-size: 5rem;
@@ -462,7 +466,7 @@ body {
   color: #206CB3;
   text-align: center;
   width: 45%;
-  margin-left: 70rem;
+  // margin-left: 70rem;
 }
 
 .home-text-section-1-h3-wrap {
