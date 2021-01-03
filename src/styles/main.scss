@@ -145,7 +145,6 @@
 
       .nav-logo {
         width: 15rem;
-        // margin-right: 14rem;
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
       }
@@ -179,8 +178,7 @@
         justify-content: center;
         border-bottom: 3px solid #005A8A;
       }
-      .home-header-section {
-    }
+
     .navbar .navbar-item {
       padding: 1rem;
     }
@@ -202,10 +200,6 @@
     }
     .home-section-3-h3-bottom {
       text-align: center;
-    }
-
-    .home-section-2 {
-      // margin-top: 10rem;
     }
 
     .products-diligience-header-image {
@@ -266,33 +260,21 @@
     }
     .products-section-3-video-wrap iframe{
       height: 200px;
+      width: 335px;
     }
 
     .products-section-4-div-wrap {
-      // flex-direction: column;
-      // padding: unset;
       padding: unset;
       flex-direction: column;
     }
     .products-section-4-text-wrap {
       text-align: center;
-      // display: flex;
-      // flex-direction: column;
-      // align-items: center;
-      // margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 0;
     }
-    .products-section-4-text-part-1-wrap {
-      // display: flex;
-      // flex-direction: column;
-      // align-items: center;
-      // margin-right: 0;
-    }
-    .products-section-4-text-part-2-wrap {
-      // display: flex;
-      // flex-direction: column;
-      // align-items: center;
-      // padding: 20px 50px;
-    }
+
     .products-section-4-h2 {
       font-family: 'Lato-Medium';
       font-size: 3rem;
@@ -304,25 +286,22 @@
       font-size: 1.8rem;
     }
     .products-section-4 {
-      // background: aliceblue;
       margin: 0 auto;
-      // text-align: center;
     }
     .products-section-4-video-wrap {
       width: 100%;
       display: flex;
       justify-content: center;
       margin-top: 0;
-      margin-bottom: 30px;
     }
     .products-section-4-video-wrap iframe {
-      height: 175px;
+      height: 200px;
+      width: 335px;
     }
     .products-section-5-icons-wrap {
       display: flex;
       align-items: center;
       justify-content: center;
-      // flex-wrap: wrap;
     }
     .products-section-5-icon-wrap {
       width: 10rem;
