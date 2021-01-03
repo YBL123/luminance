@@ -292,7 +292,9 @@
       margin: 0 auto;
     }
     .products-section-4-video-wrap {
-      margin-top: 0;
+      padding: 0 !important;
+      margin: 0 !important;
+      width: 100%;
     }
     .products-section-4-video-wrap iframe {
       height: 200px;
