@@ -1,42 +1,43 @@
 :root {
   font-size: 10px;
-  // @media screen and (max-width: 1025px) {
-  //   font-size: 0.5rem;
+  @media screen and (max-width: 1025px) {
+    font-size: 0.5rem;
 
-  //     .home-header-section {
-  //       // padding: 4rem;
-  //     }
-  //     .products-section-2-quote-image-wrap {
-  //       padding-left: 0;
-  //     }
-  //     .products-diligience-section-2-text-wrap {
-  //       padding-right: 0;
-  //       align-items: center;
-  //       width: 100%;
-  //     }
-  //     iframe {
-  //       width: 72rem;
-  //       height: 40rem;
-  //     }
-  //     .products-section-3-video-wrap {
-  //     padding-top: 0.4rem;
-  //     padding-bottom: 0.4rem;
-  //     }
-  //     .products-section-4-video-wrap {
-  //       width: 100%;
-  //     }
-  //     .products-section-3-video-wrap {
-  //       padding: 3rem !important;
-  //     }
+      .home-text-section-1 {
+        left: 66rem;
+      }
+      .home-text-section-1-h3-wrap {
+        top: 34rem;
+        left: 65rem;
+      }
+      .products-section-2-quote-image-wrap {
+        padding-left: 0;
+      }
+      .products-diligience-section-2-text-wrap {
+        padding-right: 0;
+        align-items: center;
+        width: 100%;
+      }
+      iframe {
+        width: 72rem;
+        height: 40rem;
+      }
+      .products-section-3-video-wrap {
+      padding-top: 0.4rem;
+      padding-bottom: 0.4rem;
+      }
+      .products-section-4-video-wrap {
+        width: 100%;
+      }
+      .products-section-3-video-wrap {
+        padding: 3rem !important;
+      }
 
-  // }
+  }
 
   @media screen and (max-width: 770px) {
     font-size: 0.5rem;
 
-      .home-header-section {
-        // padding: 1.3rem;
-      }
       .home-text-section-1 {
         margin-left: unset;
         left: 49rem;
