@@ -1,6 +1,8 @@
 :root {
   font-size: 10px;
-  @media screen and (max-width: 1025px) {
+
+  //iPadPro
+  @media only screen and (max-width: 1025px) and (min-width: 772px) {
     font-size: 0.5rem;
 
       .home-text-section-1 {
@@ -26,7 +28,9 @@
 
   }
 
-  @media screen and (max-width: 770px) {
+  //iPad
+
+  @media only screen and (max-width: 770px) and (min-width: 417px) {
     font-size: 0.5rem;
 
       .home-text-section-1 {
@@ -139,6 +143,7 @@
   }
 
 
+  //PHONE
 
   @media screen and (max-width: 415px) {
     font-size: 0.4rem;
